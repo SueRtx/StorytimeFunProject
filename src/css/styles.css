@@ -1,3 +1,84 @@
 body {
-  background-color: lightblue;
+  font-size: 20px;
+  color: rgb(112, 112, 205);
+  font-family: 'Modak', cursive;
+}
+
+h1 {
+  font-family: 'Lobster', cursive;
+  font-size: 60px;
+  text-align:center;
+  padding: 0 0 0 0;
+  margin: 0 0 0 0;
+  color: rgb(132, 122, 186);
+  Position: absolute;
+  left: 55px;
+  top: 80px;
+}
+img {
+  width: 100%;
+  height: auto;
+}
+
+#character_select {
+  position: absolute;
+  top: 440px;
+  left: 125px;
+}
+
+a {
+  color: rgb(112, 112, 205);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+#chose_tiny {
+  position: absolute;
+  width: 125px;
+  height: 175px;
+  top: 210px;
+  left: 135px
+}
+
+#chose_poxy {
+  position: absolute;
+  width: 90px;
+  height: 175px;
+  top: 210px;
+  left: 410px
+}
+
+#poxy_path {
+  padding: 0 0 0 0;
+  margin: 0 0 0 0;
+  color: rgb(47, 41, 78);
+  Position: absolute;
+  left: 55px;
+  top: 80px;
+}
+
+#path_select_poxy {
+  position: absolute;
+  top: 440px;
+  left: 50px;
+  color: black;
+}
+
+#chose_picnic {
+  position: absolute;
+  width: 110px;
+  height: 160px;
+  top: 170px;
+  left: 185px
+}
+
+#chose_beach {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  top: 290px;
+  left: 470px
 }
