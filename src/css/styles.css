@@ -1,4 +1,6 @@
 body {
+  width: 1000px;
+  height: 700px;
   font-size: 20px;
   color: rgb(112, 112, 205);
   font-family: 'Modak', cursive;
@@ -22,8 +24,8 @@ img {
 
 #character_select {
   position: absolute;
-  top: 440px;
-  left: 125px;
+  top: 900px;
+  left: 400px;
 }
 
 a {
@@ -36,19 +38,23 @@ a:hover {
 }
 
 #chose_tiny {
+  flex: 1;
+  display: flex;
   position: absolute;
-  width: 125px;
-  height: 175px;
-  top: 210px;
-  left: 135px
+  width: 210px;
+  height: 355px;
+  top: 410px;
+  left: 275px
 }
 
 #chose_poxy {
+  flex: 1;
+  display: flex;
   position: absolute;
-  width: 90px;
-  height: 175px;
-  top: 210px;
-  left: 410px
+  width: 190px;
+  height: 355px;
+  top: 410px;
+  left: 820px
 }
 
 #poxy_path {
