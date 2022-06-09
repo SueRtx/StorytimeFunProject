@@ -18,6 +18,21 @@ import './css/styles.css';
    });
    $('#tinyPicnic2').click(function(){
      $('#tinyPath1').hide();
-     $('#').show();
+     $('#tinyPicnic').show();
    });
+   
+   $('#tinyDragonPic').click(function(){
+   // $('#tinyPicnic').hide();
+    $('#tinyDragonPicnic').show();
+  });
+
+
+   $("#tinyBeach2").click(function(){
+    $("#tinyPicnic").hide();
+    $('#tinyBeach2').show();
+   });
+   /*$("#tinyBeach").click(function(){
+     $('#tinyBeach2').hide();
+     $('#')
+   }*/
 });
