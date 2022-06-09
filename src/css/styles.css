@@ -1,31 +1,46 @@
 body {
-  width: 1000px;
-  height: 700px;
+  width: 1300px;
+  height: 950px;
   font-size: 20px;
-  color: rgb(112, 112, 205);
-  font-family: 'Modak', cursive;
+  color: rgb(25, 25, 65);
+  font-family: 'Cinzel', serif;
+}
+
+#poxyPath1{
+  display: none;
+}
+
+#tinyPath1{
+  display: none;
+}
+
+#tinyPicnic{
+  display: none;
 }
 
 h1 {
+  display: flex;
+  text-shadow: 4px 4px black;
   font-family: 'Lobster', cursive;
-  font-size: 60px;
-  text-align:center;
+  font-size: 80px;
   padding: 0 0 0 0;
   margin: 0 0 0 0;
-  color: rgb(132, 122, 186);
+  color: rgb(186, 181, 214);
   Position: absolute;
-  left: 55px;
+  left: 420px;
   top: 80px;
 }
+
 img {
   width: 100%;
   height: auto;
 }
 
 #character_select {
+  font-size: 20px;
   position: absolute;
-  top: 900px;
-  left: 400px;
+  top: 550px;
+  left: 50px;
 }
 
 a {

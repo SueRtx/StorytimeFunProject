@@ -3,6 +3,9 @@
   <head>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -10,17 +13,57 @@
     <link href="/css/styles.css" rel="stylesheet" type="text/css">
     <title>Story Time Fun</title>
   </head>
-  <h1>Story Time Fun</h1>
-<body>
+  <body>
 
-  <img src="./img/pic.png" />
+  
   <div class="container">
-  <a href="./tinyPath1.html" id="chose_tiny"></a>
-  <a href="./poxyPath1.html" id="chose_poxy"></a>
-  <p>One bight and sunny day, Poxy the rabbit and Tiny giraffe could not decid`1111¡e whether to go on a picnic or go swimming. Help them pick what to do today.</p>
-  <p id="character_select">Choose either<a href="poxyPath1.html">Poxy</a> or <a href="tinyPath1.html">Tiny</a> to take on an adventure!</p>
+    <div id="page1">
+    <h1>Story Time Fun</h1>
+      <img src="./img/pg1(2).png" />
+      <p id="character_select">One bright and sunny day, Poxy the rabbit and Tiny
+      giraffe could not decide whether to go on a picnic or go swimming.
+      Help them pick what to do today.
+      Will you take</p>
+      <p>Choose Poxy: <span id="pP1">Click Here</span></p>
 
-  </div> 
+      <p>Choose Tiny: <span id="tP1">Click Here</span></p>
+    </div>
+  
+  
+    <div id="poxyPath1">
+      <p>"We find ourselves in quite the quandary" Poxy says. 
+      "Do we go to the woods for a picnic or down to the beach for a swim?" "Both sound like so much fun."</p>
+    
+      <h2><em>What kind of adventure do you want to go on?<em></h2>
+      <p>Poxy says we can go to the beach or on a picnic. Should we go left to the beach or right to a picnic?</p>
+      <p id="path_select_poxy">Will you take Poxy to the <a href="poxyPicnic2.html">Picnic</a> or to the <a href="poxyBeach2.html">Beach</a> to continue your adventure?</p>
 
+      <img src="./img/chose_poxy.png" />
+    </div>    
+
+
+
+
+    <div id="tinyPath1">
+      <p>"Oh No, what do we do now?" said Tiny. "Should we go to the Picnic on the left, or the beach on the right?"</p>
+  
+      <h2><em>What kind of adventure do you want to go on?<em></h2>
+      <p>Tiny says we can go to the beach or on a picnic. Should we go left to the beach or right to a picnic?</p>
+      <p>Will you take Tiny to the <span id='tinyPicnic2'>Picnic</a> or to the <a href="tinyBeach2.html">Beach</a>to continue your adventure?</p>
+  
+      <img src="./img/chose_tiny.png" />
+    </div>
+    
+    <div id="tinyPicnic">
+      <p>Yay, we're going on a picnic!</p>
+  
+      
+      <p>Let's bring another friend along with us!</p>
+      <p>Rainbow the Unicorn and Spike the Dragon love to have picnics. Who should we take on a picnic with us?
+        <span id='tinyDragon'>Spike</span> or to the <span id='tinyUnicorn'>Rainbow</span></p>
+  
+      <img src="./img/TinyPic.png" />
+    </div>
+  </div>
 </body>
 </html>
