@@ -52,14 +52,18 @@ body {
   to { width: 100% }
 }  
 
-#tP1, #tinyPicnic1, #tinySwim1,#tinyDragon1, #tinyUnicorn1, #again{
+#tiny, #tinyPicnic1, #tinySwim1, #tinyDragon1, #poxyPicnic1, #poxyDragon, #poxyDragon1, #tinyUnicorn1, #poxyDragonPic1, #again, #again1, #again2{
   color:rgb(112, 112, 205); 
   font-size: 30px;
 }
 
-#pP1, #poxyPicnic, #poxySwim, #tinySwim1, #tinyUnicorn1, #end{
-  color:rgb(237, 19, 168);
+#poxy, #poxySwim1, #tinySwim1, #tinyUnicorn1,#poxyUnicorn, #poxyUnicorn1,#poxyUnicornPic1,  #end, #end1, #end2{
+color:rgb(237, 19, 168);
   font-size: 30px;
+}
+
+#poxyDragonPic{ 
+display: none;
 }
 
 #tinyPath{

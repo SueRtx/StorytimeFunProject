@@ -6,10 +6,12 @@ import './css/styles.css';
 
 
 $(document).ready(function() {
+  $('#poxyPicnic').hide();
 
-  $('#tP1').click(function(){
+  $('#tiny').click(function(){
     $('#page1').hide();
     $('#tinyPath').show();
+    
   });
 
   $('#tinyPicnic1').click(function(){
@@ -27,6 +29,26 @@ $(document).ready(function() {
     $('#page1').show();
   });
 
+  
+  $('#poxy').click(function(){
+    $('#page1').hide();
+    $('#poxyPath').show();
+  });
+
+  $('#poxyPicnic1').click(function(){
+    $('#poxyPath').hide();
+    $('#poxyPicnic').show();
+  });
+
+  $('#poxyDragon1').click(function(){
+    $('#poxyPicnic').hide();
+    $('#poxyDragonPic').show();
+  });
+
+  $('#end1').click(function(){
+    $('#poxyDragonPic').hide();
+    $('#page1').show();
+  });
 
 
 
