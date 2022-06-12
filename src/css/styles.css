@@ -6,16 +6,83 @@ body {
   color: rgb(206, 104, 53);
   font-family: 'Cinzel', serif;
 }
+/* .center {
+  margin: auto;
+  width: 50%;
+  border: 3px solid g
 
-#poxyPath1{
-  display: none;
+.typewriter1 h6 {
+  color: rgb(225, 199, 186);
+  position: absolute;
+  top: 30%;
+  left: 10%;
+  font-family: 'Cinzel', serif;
+  font-size: 25px;
+  overflow: hidden; 
+  border-right: .15em; 
+  white-space: pre; 
+  margin: 0 auto; 
+  letter-spacing: .15em; 
+  animation: 
+    typing 8.5s steps(45, end),
+    blink-caret .5s step-end infinite;
 }
 
-#tinyPath1{
+#tP1 {
+  color:rgb(112, 112, 205);
+  text-decoration: none;
+}
+
+#tP1:hover {
+  text-decoration: underline;
+}
+
+#pP1 {
+  color:rgb(112, 112, 205);
+  text-decoration: none;
+}
+
+#pP1:hover {
+  text-decoration: underline;
+}
+
+/* The tying effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+#tinyPath{
   display: none;
 }
 
 #tinyPicnic{
+  display: none;
+}
+
+#tinyDragonPic{
+  display: none;
+}
+
+#tinyUnicornPic{
+  display: none;
+}
+
+#tinySwim{
+  display: none;
+}
+#tinyDragonSwim{
+  display: none;
+}
+
+#poxyPath{
+  display: none;
+}
+
+#poxyDragonSwim{
+  display: none;
+}
+#poxyUnicornSwim{
   display: none;
 }
 

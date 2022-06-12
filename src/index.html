@@ -10,28 +10,31 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Modak&display=swap" rel="stylesheet">
-    <link href="/css/styles.css" rel="stylesheet" type="text/css">
+    
     <title>Story Time Fun</title>
   </head>
   <body>
-
+  
     <div class="container">
-      <div id="title">
+      <div id="page1" class="center">
         <h1>Story Time Fun</h1>
-        <div class="typewriter">
         <img src="./img/title.png" />
-        <p id="character_select"><strong>One bright and sunny day, <a><span id="pP1">Poxy</span></a> the rabbit and <a><span id="tP1">Tiny</span></a>
-        the giraffe could not decide whether to go on a picnic or go swimming.
-        Help them pick what to do today.</strong>
-        Will you take</p>
-      </div>
-    
+        <div class="typewriter1">
+          <h6><p><strong> One bright and sunny day,
+    <a><span id="pP1">Poxy</span></a> the rabbit and <a><span id="tP1">Tiny</span></a> the giraffe 
+    could not decide whether to go on a picnic
+        or go swimming. Help them pick what to do today.</strong></p></h6>
+        </div>
+            <!-- Will you take -->
+            <!-- <p>Choose Poxy: <span id="pP1"><em>Click Here</em></span></p>
+      
+            <p>Choose Tiny: <span id="tP1"><em>Click Here</em></span></p> -->
+    </div>
+      
     <div id="tinyPath">
-      <p>"Oh No, what do we do now?" said Tiny. "Should we go to the Picnic on the left, or the beach on the right?"</p>
-      <h2><em>What kind of adventure do you want to go on?<em></h2>
       <p>Tiny says we can go to the beach or on a picnic. Should we go left to the beach or right to a picnic?</p>
       <p>Will you take Tiny to the <span id='tinyPicnic'><em>Picnic</em></span> or to the <span id='tinySwim'><em>Beach</em></span>to continue your adventure?</p>
-      <img src="./img/tinyPath.png" />
+      <img src="./img/tinyPath.png" id="tPathChoice">
     </div>   
  
     <div id="tinyPicnic">
@@ -39,48 +42,48 @@
       <p>Let's bring another friend along with us!</p>
       <p>Rainbow the Unicorn and Spike the Dragon love to have picnics. Who should we take on a picnic with us?
       <span id='tinyDragon'>Spike</span> or to the <span id='tinyUnicorn'>Rainbow</span></p>
-      <img src="./img/tinyPicnic.png" />
+      <img src="./img/tinyPicnic.png" id="tPicnic">
     </div>
 
     <div id="tinyDragonPic">
       <h3>Fun! Now we're ready to have a picnic with our Dragon friend.</h3>
       <span id='tinyDragonPic'>Spike</span> or to the <span id='tinyUnicornPic'>Rainbow</span></p>
-      <img src="./img/tinyDragonPic" />
+      <img src="./img/tinyDragonPic.png" id="tDragonPicnic">
     </div>
     
-    <div id="tinyUnicornPic"> // next page Tiny & Unicorn Picnic
+    <div id="tinyUnicornPic"> 
       <h3>Fun! Now we're ready to have a picnic with our unicorn friend.</h3>
       <p>Our picnic will be the best in all the land!</p>
-      <img src="./img/tinyUnicornPic"/>
+      <img src="./img/tinyUnicornPic.png" id="tUnicornPicnic">
       
-    <div id="tinySwim"> // next page Tiny goes to the beach
+    <div id="tinySwim"> 
       <h3>Yay, we're going to the beach!</h3>
       <p>Let's bring along another friend.</p>
       <p>Rainbow the Unicorn and Spike the Dragon love to go to the beach. Who should we take with us?
       <span id='dragon'>Spike</span> or to the <span id='unicorn'>Rainbow</span></p>
-      <img src="./img/tinySwim.png" />
+      <img src="./img/tinySwim.png" id="tSwimChoice">
     </div>
     
     <div id="tinyDragonSwim">
       <h3>Fun! Now we're ready to go swimming with our friends.</h3>
       <h2><em>Spike the Dragon loves to use their floatees to swim.<em></h2>
       <p>Enjoy your swim party at the beach!</p>
-      <img src="./img/tinyDragonSwim.png" />
+      <img src="./img/tinyDragonSwim.png" id="tDragonSwim">
     </div>
 
     <div id="tinyUnicornSwim">
       <h3>Fun! Now we're ready to go swimming with our friends.</h3>
       <h2><em>Spike the Unicorn loves to use their floatees to swim.<em></h2>
       <p>Enjoy your swim party at the beach!</p>
-      <img src="./img/tinyUnicornSwim.png" />
-    </div>
-    
+      <img src="./img/tinyUnicornSwim.png"
+      </div>
+     
     <div id="poxyPath">
       <p>"Oh No, what do we do now?" said Poxy. "Should we go to the Picnic on the left, or the beach on the right?"</p>
       <h2><em>What kind of adventure do you want to go on?<em></h2>
       <p>Poxy says we can go to the beach or on a picnic. Should we go left to the beach or right to a picnic?</p>
       <p>Will you take Poxy to the <span id='poxyPicnic'><em>Picnic</em></span> or to the <span id='poxySwim'><em>Beach</em></span>to continue your adventure?</p>
-      <img src="./img/poxyPath.png" />
+      <img src="./img/poxyPath.png">
     </div>  
     
     <div id="poxyPic">
@@ -88,19 +91,19 @@
       <p>Let's bring another friend along with us!</p>
       <p>Rainbow the Unicorn and Spike the Dragon love to have picnics. Who should we take on a picnic with us?
       <span id='poxyDragon'>Spike</span> or to the <span id='poxyUnicorn'>Rainbow</span></p>
-      <img src="./img/poxyPic.png" />
+      <img src="./img/poxyPic.png" id="pPicnic">
     </div>
     
     <div id="poxyDragonPic">
       <h3>Fun! Now we're ready to have a picnic with our Dragon friend.</h3>
       <span id='poxyDragonPic'>Spike</span> or to the <span id='poxyUnicornPic'>Rainbow</span></p>
-      <img src="./img/poxyDragonPic" />
+      <img src="./img/poxyDragonPic.png" >
     </div>
       
     <div id="poxyUnicornPic"> 
       <h3>Fun! Now we're ready to have a picnic with our unicorn friend.</h3>
       <p>Our picnic will be the best in all the land!</p>
-      <img src="./img/poxyUnicornPic"/>
+      <img src="./img/poxyUnicornPic.png">
     </div>
   
     <div id="poxySwim"> 
@@ -108,21 +111,21 @@
       <p>Let's bring along another friend.</p>
       <p>Rainbow the Unicorn and Spike the Dragon love to go to the beach. Who should we take with us?
       <span id='dragon'>Spike</span> or to the <span id='unicorn'>Rainbow</span></p>
-      <img src="./img/poxySwim.png" />
+      <img src="./img/poxySwim.png" >
     </div>
   
     <div id="poxyDragonSwim">
       <h3>Fun! Now we're ready to go swimming with our friends.</h3>
       <h2><em>Spike the Dragon loves to use their floatees to swim.<em></h2>
       <p>Enjoy your swim party at the beach!</p>
-      <img src="./img/poxyDragonSwim.png" />
+      <img src="./img/poxyDragonSwim.png">
     </div>
 
     <div id="poxyUnicornSwim">
      <h3>Fun! Now we're ready to go swimming with our friends.</h3>
       <h2><em>Spike the Unicorn loves to use their floatees to swim.<em></h2>
       <p>Enjoy your swim party at the beach!</p>
-      <img src="./img/poxyUnicornSwim.png" />
+      <img src="./img/poxyUniSwim.png">
     </div>  
   </div>
 </body>
