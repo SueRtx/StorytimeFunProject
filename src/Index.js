@@ -7,32 +7,32 @@ import './css/styles.css';
 
 
 
- $(document).ready(function() {
-    $('#pP1').click(function() {
-      $("#page1").hide();
-      $("#poxyPath1").show();
-   });
-   $('#tP1').click(function(){
-     $('#page1').hide();
-     $('#tinyPath1').show();
-   });
-   $('#tinyPicnic2').click(function(){
-     $('#tinyPath1').hide();
-     $('#tinyPicnic').show();
-   });
-   
-   $('#tinyDragonPic').click(function(){
+$(document).ready(function() {
+  $('#pP1').click(function() {
+    $("#page1").hide();
+    $("#poxyPath1").show();
+  });
+  $('#tP1').click(function(){
+    $('#page1').hide();
+    $('#tinyPath1').show();
+  });
+  $('#tinyPicnic2').click(function(){
+    $('#tinyPath1').hide();
+    $('#tinyPicnic').show();
+  });
+
+  $('#tinyDragonPic').click(function(){
    // $('#tinyPicnic').hide();
     $('#tinyDragonPicnic').show();
   });
 
 
-   $("#tinyBeach2").click(function(){
+  $("#tinyBeach2").click(function(){
     $("#tinyPicnic").hide();
     $('#tinyBeach2').show();
-   });
-   /*$("#tinyBeach").click(function(){
-     $('#tinyBeach2').hide();
-     $('#')
-   }*/
+  });
+  /*$("#tinyBeach").click(function(){
+  $('#tinyBeach2').hide();
+    $('#')
+  }*/
 });
