@@ -24,12 +24,13 @@ $(document).ready(function() {
     $('#tinyDragonPic').show();
   });
 
-  $('#again').click(function(){
+  $('#end').click(function(){
     $('#tinyDragonPic').hide();
     $('#page1').show();
   });
-
   
+  /* Poxy Picnic/Dragon Path Starts*/
+
   $('#poxy').click(function(){
     $('#page1').hide();
     $('#poxyPath').show();
@@ -49,9 +50,70 @@ $(document).ready(function() {
     $('#poxyDragonPic').hide();
     $('#page1').show();
   });
+  
+  /* Poxy Beach/Dragon Path Starts*/
+  
+  $('#poxy').click(function(){
+    $('#page1').hide();
+    $('#poxyPath').show();
+  });
 
+  $('#poxySwim1').click(function(){
+    $('#poxyPath').hide();
+    $('#poxySwim').show();
+  });
 
+  $('#dragon1').click(function(){
+    $('#poxySwim').hide();
+    $('#poxyDragonSwim').show();
+  });
 
+  $('#end5').click(function(){
+    $('#poxyDragonSwim').hide();
+    $('#page1').show();
+  });
 
+  /* Poxy Beach/Unicorn Path Starts*/
+  
+  $('#poxy').click(function(){
+    $('#page1').hide();
+    $('#poxyPath').show();
+  });
 
+  $('#poxySwim1').click(function(){
+    $('#poxyPath').hide();
+    $('#poxySwim').show();
+  });
+
+  $('#unicorn1').click(function(){
+    $('#poxySwim').hide();
+    $('#poxyUnicornSwim').show();
+  });
+
+  $('#end4').click(function(){
+    $('#poxyUnicornSwim').hide();
+    $('#page1').show();
+  });
+
+  /* Tiny Beach/Dragon Path Starts*/
+  
+  $('#tiny').click(function(){
+    $('#page1').hide();
+    $('#tinyPath').show();
+  });
+
+  $('#tinySwim1').click(function(){
+    $('#tinyPath').hide();
+    $('#tinySwim').show();
+  });
+
+  $('#dragon1').click(function(){
+    $('#tinySwim').hide();
+    $('#tinyDragonSwim').show();
+  });
+
+  $('#end5').click(function(){
+    $('#tinyDragonSwim').hide();
+    $('#page1').show();
+  });
 });

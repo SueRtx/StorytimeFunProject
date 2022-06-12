@@ -52,12 +52,12 @@ body {
   to { width: 100% }
 }  
 
-#tiny, #tinyPicnic1, #tinySwim1, #tinyDragon1, #poxyPicnic1, #poxyDragon, #poxyDragon1, #tinyUnicorn1, #poxyDragonPic1, #again, #again1, #again2{
+#tiny, #tinyPicnic1, #tinySwim1, #tinyDragon1, #poxyPicnic1, #poxyDragon, #poxyDragon1, #tinyUnicorn1, #poxyDragonPic1,#dragon1, #again, #again1, #end3, #again2, #dragon{
   color:rgb(112, 112, 205); 
   font-size: 30px;
 }
 
-#poxy, #poxySwim1, #tinySwim1, #tinyUnicorn1,#poxyUnicorn, #poxyUnicorn1,#poxyUnicornPic1,  #end, #end1, #end2{
+#poxy, #poxySwim1, #tinySwim1, #tinyUnicorn1,#poxyUnicorn, #poxyUnicorn1,#poxyUnicornPic1, #unicorn, #unicorn1, #end, #end1, #end2, #end3{
 color:rgb(237, 19, 168);
   font-size: 30px;
 }
