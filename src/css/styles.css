@@ -46,15 +46,25 @@ body {
   text-decoration: underline;
 }
 
-/* The tying effect */
+/* The ty ing effect */
 @keyframes typing {
   from { width: 0 }
   to { width: 100% }
+}  
+
+#tP1, #tinyPicnic1, #tinySwim1,#tinyDragon1, #tinyUnicorn1, #again{
+  color:rgb(112, 112, 205); 
+  font-size: 30px;
+}
+
+#pP1, #poxyPicnic, #poxySwim, #tinySwim1, #tinyUnicorn1, #end{
+  color:rgb(237, 19, 168);
+  font-size: 30px;
 }
 
 #tinyPath{
   display: none;
-}
+} 
 
 #tinyPicnic{
   display: none;
