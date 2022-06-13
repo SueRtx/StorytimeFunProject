@@ -52,19 +52,44 @@ body {
   to { width: 100% }
 }  
 
-#tiny, #tinyPicnic1, #tinySwim1, #tinyDragon1, #poxyPicnic1, #poxyDragon, #poxyDragon1, #tinyUnicorn1, #poxyDragonPic1,#dragon1, #again, #again1, #end3, #again2, #dragon{
+#tiny, #tinyPicnic1, #tinySwim1, #tinyDragon1, #poxyPicnic1, #poxyDragon, #poxyDragon1, #tinyUnicorn1, #poxyDragonPic1, #tinyDragon2, #dragon1,  #end3, #dragon{
   color:rgb(112, 112, 205); 
   font-size: 30px;
 }
 
-#poxy, #poxySwim1, #tinySwim1, #tinyUnicorn1,#poxyUnicorn, #poxyUnicorn1,#poxyUnicornPic1, #unicorn, #unicorn1, #end, #end1, #end2, #end3{
+#poxy, #poxySwim1, #tinySwim1, #tinyUnicorn1, #poxyUnicorn, #tinyUnicorn2, #poxyUnicorn1,#poxyUnicornPic1, #unicorn, #unicorn1, #end, #end1, #end2, #end3, #end4, #end5, #end6, #end7{
 color:rgb(237, 19, 168);
   font-size: 30px;
+}
+
+#poxyPath{
+  display: none; 
 }
 
 #poxyDragonPic{ 
 display: none;
 }
+
+#poxyPicnic{
+  display: none; 
+}
+
+#poxyUnicornPic{ 
+  display: none;
+  }
+
+#poxySwim{ 
+  display: none;
+}
+  
+#poxyDragonSwim{
+  display: none;
+}
+
+#poxyUnicornSwim{
+  display: none;
+}
+
 
 #tinyPath{
   display: none;
@@ -85,18 +110,12 @@ display: none;
 #tinySwim{
   display: none;
 }
+
 #tinyDragonSwim{
   display: none;
 }
 
-#poxyPath{
-  display: none;
-}
-
-#poxyDragonSwim{
-  display: none;
-}
-#poxyUnicornSwim{
+#tinyUnicornSwim{
   display: none;
 }
 
