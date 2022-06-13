@@ -174,4 +174,4 @@ $(document).ready(function() {
     $('#page1').show();
   });
   
-  });
+});
