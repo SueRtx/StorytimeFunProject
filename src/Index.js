@@ -44,8 +44,6 @@ $('#end13').click(function(){
   $('#page1').show();
 });
 
-
-
 // Spike Unicorn/ball Path Starts
 $('#spike').click(function(){
   $('#page1').hide();
@@ -73,6 +71,16 @@ $('#end9').click(function(){
   $('#page1').show();
 });
 
+// Spike Poxy/ball Path Starts
+$('#poxyBall').click(function(){
+  $('#dragonBall').hide();
+  $('#dragonPoxyBall').show();
+});
+
+$('#end14').click(function(){
+  $('#dragonPoxyBall').hide();
+  $('#page1').show();
+});
 
 
 
