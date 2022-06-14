@@ -44,9 +44,6 @@ $('#end8').click(function(){
 });
 
 // Spike Tiny/ball Path Starts
-
-
-
 $('#tinyBall').click(function(){
   $('#dragonBall').hide();
   $('#dragonTinyBall').show();
@@ -56,8 +53,6 @@ $('#end9').click(function(){
   $('#dragonTinyBall').hide();
   $('#page1').show();
 });
-
-
 
   /* Tiny Picnic/Dragon Path Starts*/
   $('#tiny').click(function(){
