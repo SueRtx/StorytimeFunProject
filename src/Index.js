@@ -11,21 +11,17 @@ $(document).ready(function() {
   $('#page1').hide();
   $('#sunPicnic').show();
 });
-/*
-$('#UnicornBall').click(function(){
-  $('#tinyPath').hide();
-  $('#tinyPicnic').show();
+
+$('#unicornPicnic2').click(function(){
+  $('#sunPicnic').hide();
+  $('#sunUnicornPicnic').show();
 });
 
-/*$('#tinyDragon1').click(function(){
-  $('#tinyPicnic').hide();
-  $('#tinyDragonPic').show();
-});
 
-$('#end').click(function(){
-  $('#tinyDragonPic').hide();
+$('#end10').click(function(){
+  $('#sunUnicornPicnic').hide();
   $('#page1').show();
-});*/
+});
 
 // Spike Unicorn/ball Path Starts
 $('#spike').click(function(){
@@ -53,6 +49,10 @@ $('#end9').click(function(){
   $('#dragonTinyBall').hide();
   $('#page1').show();
 });
+
+
+
+
 
   /* Tiny Picnic/Dragon Path Starts*/
   $('#tiny').click(function(){

@@ -1,51 +1,38 @@
+body {
+  text-shadow: 2px 1px black;
+  font-family: 'Cinzel', serif;
+  background-color: rgb(210, 210, 175);
+}
+.pop-out {
+  animation: 2s anim-popoutin ease infinite;
+  font-size: 30px;
+}
 
 #helpSun {
-  margin-top: -42%;
-  margin-left: 77%;
+  margin-top: -2%;
+  margin-left: 80%;
+  color: rgb(230, 122, 80);
 }
 
 #helpDragon {
-  margin-top: -47%;
-  margin-left: 38%;
+  margin-top: -44%;
+  margin-left: 43%;
+  color: rgb(243, 235, 241);
+}
+
+#helpPoxy {
+  margin-top: -4%;
+  margin-left: 23%;
+  color: rgb(242, 98, 54);
 }
 
 #helpTiny {
   margin-top: -4%;
   margin-left: 72%;
-  /*animation: opacity 2s ease-in-out infinite;
-  opacity: 1;
-  color: rgb(163, 210, 60);  
-}
-@keyframes opacity {
-0% {
-  opacity: 1;
-}
-50% {
-  opacity: 0
-}
-100% {
-  opacity: 1;
-}*/
+  color: rgb(40, 183, 24);
 }
 
-#helpPoxy {
-  margin-top: -9%;
-  margin-left: 19%;
- /* animation: opacity 2s ease-in-out infinite;
-  opacity: 1;
-  color: rgb(163, 210, 60);  
-}
-@keyframes opacity {
-0% {
-  opacity: 1;
-}
-50% {
-  opacity: 0
-}
-100% {
-  opacity: 1;
-}*/
-}
+
 /*
 #choosePoxyPicnic1 {
   margin-top: -33%;
@@ -166,15 +153,6 @@ img {
   border-bottom: 300px;
 }
 
-
-body {
-  text-shadow: 2px 1px black;
-  font-size: 20px;
-  color: rgb(206, 104, 53);
-  font-family: 'Cinzel', serif;
-  background-color: rgb(210, 210, 175);
-}
-
 .title-word {
   animation: color-animation 4s linear infinite;
 }
@@ -210,9 +188,10 @@ body {
 .title {
   text-shadow: 4px 4px black;
   font-family: 'Lobster', cursive;
-  font-size: 70px;
+  font-size: 75px;
   padding: 0 0 0 0;
-  margin-top: -50%;
+  margin-top: -55%;
+  margin-left: 2%;
   text-align: center;
   Position: absolute;
 }
@@ -241,8 +220,8 @@ body {
   height: 350px;
   size: relative;
   position: absolute;
-  top: 36%;
-  left: 15%;
+  top: 45%;
+  left: 17%;
   animation: shake 3s;
   animation-iteration-count: infinite
 }
@@ -252,7 +231,7 @@ body {
   height: 350px;
   size: relative;
   position: absolute;
-  top: 36%;
+  top: 45%;
   left: 63.5%;
   animation: shake 3s;
   animation-iteration-count: infinite
@@ -263,8 +242,8 @@ body {
   height: 210px;
   size: relative;
   position: absolute;
-  top: 12%;
-  left: 32%;
+  top: 1%;
+  left: 38%;
   animation: shake 3s;
   animation-iteration-count: infinite
 }
@@ -302,11 +281,6 @@ body {
   to {
     width: 100%;
   }
-}
-
-.pop-out {
-  animation: 2s anim-popoutin ease infinite;
-  font-size: 40px;
 }
 
 @keyframes anim-popoutin {
@@ -362,6 +336,7 @@ body {
 #dragonBall{
   display: none;
 }
+
  #tinyPicnic1, #tinySwim1, #tinyDragon1, #poxyPicnic1, #poxyDragon, #poxyDragon1, #tinyUnicorn1, #poxyDragonPic1, #tinyDragon2, #dragon1, #end3, #dragon{
   color:rgb(237, 19, 168); 
   font-size: 30px;
@@ -450,5 +425,17 @@ color:rgb(237, 19, 168);
 }
 
 #dragonTinyBall{
+  display: none;
+}
+
+#sunUnicornPicnic{
+  display: none;
+}
+
+#sunTinyPicnic{
+  display: none;
+}
+
+#sunSpikePicnic{
   display: none;
 }
