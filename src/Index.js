@@ -6,8 +6,8 @@ import './css/styles.css';
 
 $(document).ready(function() {
 
- /* Sunny Picnic Starts*/
- $('#sun').click(function(){
+/* Sunny Unicorn/Picnic Starts*/
+$('#sun').click(function(){
   $('#page1').hide();
   $('#sunPicnic').show();
 });
@@ -17,11 +17,23 @@ $('#unicornPicnic2').click(function(){
   $('#sunUnicornPicnic').show();
 });
 
-
 $('#end10').click(function(){
   $('#sunUnicornPicnic').hide();
   $('#page1').show();
 });
+
+/* Sunny Spike/Picnic Starts*/
+$('#dragonPicnic2').click(function(){
+  $('#sunPicnic').hide();
+  $('#sunDragonPicnic').show();
+});
+
+$('#end12').click(function(){
+  $('#sunDragonPicnic').hide();
+  $('#page1').show();
+});
+
+
 
 // Spike Unicorn/ball Path Starts
 $('#spike').click(function(){
