@@ -428,10 +428,6 @@ color:rgb(237, 19, 168);
   display: none;
 }
 
-#sunUnicornPicnic{
-  display: none;
-}
-
 #sunPoxyPicnic{
   display: none;
 }
@@ -439,3 +435,8 @@ color:rgb(237, 19, 168);
 #sunDragonPicnic{
   display: none;
 }
+
+#sunUnicornPicnic{
+  display: none;
+}
+
