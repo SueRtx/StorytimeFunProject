@@ -1,8 +1,163 @@
+
+#helpSun {
+  margin-top: -42%;
+  margin-left: 77%;
+}
+
+#helpDragon {
+  margin-top: -47%;
+  margin-left: 38%;
+}
+
+#helpTiny {
+  margin-top: -4%;
+  margin-left: 72%;
+  /*animation: opacity 2s ease-in-out infinite;
+  opacity: 1;
+  color: rgb(163, 210, 60);  
+}
+@keyframes opacity {
+0% {
+  opacity: 1;
+}
+50% {
+  opacity: 0
+}
+100% {
+  opacity: 1;
+}*/
+}
+
+#helpPoxy {
+  margin-top: -9%;
+  margin-left: 19%;
+ /* animation: opacity 2s ease-in-out infinite;
+  opacity: 1;
+  color: rgb(163, 210, 60);  
+}
+@keyframes opacity {
+0% {
+  opacity: 1;
+}
+50% {
+  opacity: 0
+}
+100% {
+  opacity: 1;
+}*/
+}
+/*
+#choosePoxyPicnic1 {
+  margin-top: -33%;
+  margin-left: 19%; 
+  font-size: 42px;
+  animation: opacity 2s ease-in-out infinite;
+  opacity: 1;
+  color: rgb(234, 43, 43);  
+}
+@keyframes opacity {
+0% {
+  opacity: 1;
+}
+50% {
+  opacity: 0
+}
+100% {
+  opacity: 1;
+}
+}
+
+#choosePoxySwim1{
+  margin-top: -20%;
+  margin-left: 51%;
+  font-size: 42px;
+  font-style: bolder;
+  animation: opacity 2s ease-in-out infinite;
+  opacity: 1;
+  color: rgb(61, 61, 228);  
+}
+@keyframes opacity {
+0% {
+  opacity: 1;
+}
+50% {
+  opacity: 0
+}
+100% {
+  opacity: 1;
+}
+}
+
+#choosepoxyDragon1 {
+  margin-top: -39%;
+  margin-left: 37%; 
+  font-size: 42px;
+  animation: opacity 2s ease-in-out infinite;
+  opacity: 1;
+  color: rgb(234, 43, 43);  
+}
+@keyframes opacity {
+0% {
+  opacity: 1;
+}
+50% {
+  opacity: 0
+}
+100% {
+  opacity: 1;
+}
+}
+
+#choosepoxyUnicorn1{
+  margin-top: -7%;
+  margin-left: 65%;
+  font-size: 42px;
+  font-style: bolder;
+  animation: opacity 2s ease-in-out infinite;
+  opacity: 1;
+  color: rgb(61, 61, 228);  
+}
+@keyframes opacity {
+0% {
+  opacity: 1;
+}
+50% {
+  opacity: 0
+}
+100% {
+  opacity: 1;
+}
+}
+
+#chooseEnd6{
+  margin-top: -57%;
+  margin-left: 50%;
+  font-size: 42px;
+  font-style: bolder;
+  animation: opacity 2s ease-in-out infinite;
+  opacity: 1;
+  color: rgb(61, 61, 228);  
+}
+@keyframes opacity {
+0% {
+  opacity: 1;
+}
+50% {
+  opacity: 0
+}
+100% {
+  opacity: 1;
+}
+}
+*/
+
 img {
+  margin-top: 1%;
   width: 100%;
   height: auto;
   border-bottom: 300px;
 }
+
 
 body {
   text-shadow: 2px 1px black;
@@ -47,9 +202,9 @@ body {
 .title {
   text-shadow: 4px 4px black;
   font-family: 'Lobster', cursive;
-  font-size: 80px;
+  font-size: 70px;
   padding: 0 0 0 0;
-  margin: 0 auto;
+  margin-top: -50%;
   text-align: center;
   Position: absolute;
 }
@@ -58,6 +213,66 @@ body {
   to {
     background-position: 200% center;
   }
+}
+
+.parent {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.image1 {
+  position: relative;
+  top: 0;
+  left: 0;
+  border: 5px solid #1b3d6d;
+}
+
+.image2 {
+  width: 200px;
+  height: 350px;
+  size: relative;
+  position: absolute;
+  top: 36%;
+  left: 15%;
+  animation: shake 3s;
+  animation-iteration-count: infinite
+}
+
+.image3 {
+  width: 245px;
+  height: 350px;
+  size: relative;
+  position: absolute;
+  top: 36%;
+  left: 63.5%;
+  animation: shake 3s;
+  animation-iteration-count: infinite
+}
+
+.image4{
+  width: 190px;
+  height: 210px;
+  size: relative;
+  position: absolute;
+  top: 12%;
+  left: 32%;
+  animation: shake 3s;
+  animation-iteration-count: infinite
+}
+
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
 }
 
 .scrolling h6 {
@@ -83,6 +298,7 @@ body {
 
 .pop-out {
   animation: 2s anim-popoutin ease infinite;
+  font-size: 40px;
 }
 
 @keyframes anim-popoutin {
@@ -131,12 +347,19 @@ body {
   display: none;
 }
 
-#tiny, #tinyPicnic1, #tinySwim1, #tinyDragon1, #poxyPicnic1, #poxyDragon, #poxyDragon1, #tinyUnicorn1, #poxyDragonPic1, #tinyDragon2, #dragon1, #end3, #dragon{
+#sunPicnic {
+  display: none;
+}
+
+#dragonBall{
+  display: none;
+}
+ #tinyPicnic1, #tinySwim1, #tinyDragon1, #poxyPicnic1, #poxyDragon, #poxyDragon1, #tinyUnicorn1, #poxyDragonPic1, #tinyDragon2, #dragon1, #end3, #dragon{
   color:rgb(237, 19, 168); 
   font-size: 30px;
 }
 
-#poxy, #poxySwim1, #tinySwim1, #tinyUnicorn1, #poxyUnicorn, #tinyUnicorn2, #poxyUnicorn1,#poxyUnicornPic1, #unicorn, #unicorn1, #end, #end1, #end2, #end3, #end4, #end5, #end6, #end7{
+#poxySwim1, #tinySwim1, #tinyUnicorn1, #poxyUnicorn, #tinyUnicorn2, #poxyUnicorn1,#poxyUnicornPic1, #unicorn, #unicorn1, #end, #end1, #end2, #end3, #end4, #end5, #end6, #end7{
 color:rgb(237, 19, 168);
   font-size: 30px;
 }
@@ -204,6 +427,5 @@ color:rgb(237, 19, 168);
 #tinyUnicornSwim{
   display: none;
 }
-
 
 

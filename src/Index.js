@@ -6,6 +6,49 @@ import './css/styles.css';
 
 $(document).ready(function() {
 
+ /* Sunny Picnic Starts*/
+ $('#sun').click(function(){
+  $('#page1').hide();
+  $('#sunPicnic').show();
+});
+
+/*$('#tinyPicnic1').click(function(){
+  $('#tinyPath').hide();
+  $('#tinyPicnic').show();
+});
+
+$('#tinyDragon1').click(function(){
+  $('#tinyPicnic').hide();
+  $('#tinyDragonPic').show();
+});
+
+$('#end').click(function(){
+  $('#tinyDragonPic').hide();
+  $('#page1').show();
+});*/
+
+// Spike Play ball Path Starts
+$('#spike').click(function(){
+  $('#page1').hide();
+  $('#dragonBall').show();
+});
+
+/*$('#tinyPicnic1').click(function(){
+  $('#tinyPath').hide();
+  $('#tinyPicnic').show();
+});
+
+$('#tinyDragon1').click(function(){
+  $('#tinyPicnic').hide();
+  $('#tinyDragonPic').show();
+});
+
+$('#end').click(function(){
+  $('#tinyDragonPic').hide();
+  $('#page1').show();
+});*/
+
+
   /* Tiny Picnic/Dragon Path Starts*/
   $('#tiny').click(function(){
     $('#page1').hide();
