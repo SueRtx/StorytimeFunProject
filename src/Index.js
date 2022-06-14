@@ -11,13 +11,13 @@ $(document).ready(function() {
   $('#page1').hide();
   $('#sunPicnic').show();
 });
-
-/*$('#tinyPicnic1').click(function(){
+/*
+$('#UnicornBall').click(function(){
   $('#tinyPath').hide();
   $('#tinyPicnic').show();
 });
 
-$('#tinyDragon1').click(function(){
+/*$('#tinyDragon1').click(function(){
   $('#tinyPicnic').hide();
   $('#tinyDragonPic').show();
 });
@@ -27,26 +27,36 @@ $('#end').click(function(){
   $('#page1').show();
 });*/
 
-// Spike Play ball Path Starts
+// Spike Unicorn/ball Path Starts
 $('#spike').click(function(){
   $('#page1').hide();
   $('#dragonBall').show();
 });
 
-/*$('#tinyPicnic1').click(function(){
-  $('#tinyPath').hide();
-  $('#tinyPicnic').show();
+$('#unicornBall').click(function(){
+  $('#dragonBall').hide();
+  $('#dragonUnicornBall').show();
 });
 
-$('#tinyDragon1').click(function(){
-  $('#tinyPicnic').hide();
-  $('#tinyDragonPic').show();
-});
-
-$('#end').click(function(){
-  $('#tinyDragonPic').hide();
+$('#end8').click(function(){
+  $('#dragonUnicornBall').hide();
   $('#page1').show();
-});*/
+});
+
+// Spike Tiny/ball Path Starts
+
+
+
+$('#tinyBall').click(function(){
+  $('#dragonBall').hide();
+  $('#dragonTinyBall').show();
+});
+
+$('#end9').click(function(){
+  $('#dragonTinyBall').hide();
+  $('#page1').show();
+});
+
 
 
   /* Tiny Picnic/Dragon Path Starts*/
