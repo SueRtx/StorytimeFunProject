@@ -28,8 +28,19 @@ $('#dragonPicnic2').click(function(){
   $('#sunDragonPicnic').show();
 });
 
-$('#end12').click(function(){
+$('#end15').click(function(){
   $('#sunDragonPicnic').hide();
+  $('#page1').show();
+});
+
+/* Sunny Poxy/Picnic Starts*/
+$('#poxyPicnic2').click(function(){
+  $('#sunPicnic').hide();
+  $('#sunPoxyPicnic').show();
+});
+
+$('#end13').click(function(){
+  $('#sunPoxyPicnic').hide();
   $('#page1').show();
 });
 
