@@ -204,6 +204,40 @@ color:rgb(237, 19, 168);
 #tinyUnicornSwim{
   display: none;
 }
+.scrolling{
+  position: relative;
+}
+.fish{
+  position: absolute;
+  opacity: 0.3;
+  z-index: -1;
+/* this is for the two images two rest ontop of each other */  
+.parent {
+  position: relative;
+  top: 0;
+  border: 5px solid black;
+}
+
+.image1 {
+  position: relative;
+  top: 0;
+  border: 5px solid black;  borde
 
 
+.image2 {
+  width: 480px;
+  height: 270px;
+  size: relative;
+  position: absolute;
+  top: 40%;
+  left: 60%;
+  border: 5px solid black;
+}
 
+}
+
+  /*body {background-image: url(path/to/animated.gif);}*/
+}
+.party{
+  position: absolute;
+}
