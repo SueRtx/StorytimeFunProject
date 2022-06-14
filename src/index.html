@@ -1,100 +1,181 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap" rel="stylesheet">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Modak&display=swap" rel="stylesheet">
-  <title>Story Time Fun</title>
-</head>
-<body>
-  <div class="container">
-    <div id="page1" class="center">
-      <h1>Story Time Fun</h1>
-      <img src="./img/title.png" />
-      <div class="typewriter1">
-          <h6><strong>One bright and sunny day, Poxy the rabbit and Tiny the giraffe could not decide what to do. Can you help them pick what to do today? Do you want to help <a><span id="poxy">Poxy</span></a> or <a><span id="tiny">Tiny?</span></a></strong></h6>
-      </div>      
+  <head>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.6.0.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Story Time Fun</title>
+  </head>
+  <body>
+
+    <div class="container">
+      <div id="page1" class="center">
+          <h1 class="title">
+            <span class="title-word title-word-1">Story</span>
+            <span class="title-word title-word-2">Time</span>
+            <span class="title-word title-word-3">Fun</span>
+          </h1>
+        <img src="./img/title.png" />
+        <div class="scrolling">
+          <h6><strong> One bright and sunny day,
+      <span class='pop-out' id="poxy">Poxy</span> the rabbit and <span class='pop-out' id="tiny">Tiny</span> the giraffe 
+        could not decide whether to go on a picnic
+          or go swimming. Help them pick what to do today.</strong></h6>
+        </div>
+      </div>
     </div>
-      
-    <div id="tinyPath">
+    
+    <div id="tinyPath" class="container">
       <img src="./img/tinyPath.png" id="tPathChoice">
-      <h6><strong>Tiny says we can go to the beach or on a picnic. Should we go down the hill to the beach or over to the meadow for a picnic? Will you take Tiny to the
-        <a><span id="tinyPicnic1">Picnic</span></a> or to the <a><span id="tinySwim1">Beach</span></a> to continue your adventure?</strong></h6>
+      <div class="scrolling">
+      <h6><strong>Tiny says we can go to the Beach or on a Picnic. 
+        Should we go right to the Beach or left to a Picnic?
+          Will you take Tiny to the
+          <span class='pop-out' id="tinyPicnic1">Picnic</span> or to the <span class='pop-out' id="tinySwim1">Beach</span> to continue your adventure?</strong></h6>
+      </div>
     </div>  
     
-    <div id="poxyPath">
+    <div id="poxyPath" class="container">
       <img src="./img/poxyPath.png">
-      <h6><strong> Poxy says we can go to the beach or on a picnic. Should we go down the hill to the beach or over to the meadow for a picnic? Will you take Poxy to the
-        <a><span id="poxyPicnic1">Picnic</span></a> or to the <a><span id="poxySwim1">Beach</span></a> to continue your adventure?</strong></h6>
+      <div class="scrolling">
+      <h6><strong> Poxy says we can go to the beach or on a picnic. 
+        Should we go right to the beach or left to a picnic? 
+          Will you take Poxy to the
+          <span class='pop-out' id="poxyPicnic1">Picnic</span> or to the <span class='pop-out' id="poxySwim1">Beach</span> to continue your adventure?</strong></h6>
+      </div>
     </div>
     
-    <div id="poxyPicnic">
+    <div id="poxyPicnic" class="container">
       <img src="./img/poxyPic.png" id="pPicnic">
-      <h6>Yay, we're going on a picnic! Let's bring another friend along with us. Rainbow the Unicorn and Spike the Dragon love to have picnics. Who should we take on our picnic?
-      <span id='poxyDragon1'>Spike</span> or <span id='poxyUnicorn1'>Rainbow</span></h6>
+      <div class="scrolling">
+      <h6><strong>Yay, we're going on a picnic! 
+        Let's bring another friend along with us! 
+          Rainbow the Unicorn and Spike the Dragon love to have picnics. 
+            Who should we take on a picnic with us?
+            <span class='pop-out' id='poxyDragon1'>Spike</span> or <span class='pop-out' id='poxyUnicorn1'>Rainbow</span></strong></h6>
+    </div>
     </div>
 
-    <div id="tinyPicnic">
+    <div id="tinyPicnic" class="container">
       <img src="./img/tinyPicnic.png" id="tPicnic">
-      <h6>Yay, we're going on a picnic! Let's bring another friend along with us! Rainbow the Unicorn and Spike the Dragon love to have picnics. Who should we take on a our picnic?
-      <span id='tinyDragon1'>Spike</span> or <span id='tinyUnicorn1'>Rainbow</span></h6>
+      <div class="scrolling">
+      <h6><strong>Yay, we're going on a picnic! 
+        Let's bring another friend along with us! 
+          Rainbow the Unicorn and Spike the Dragon love to have picnics. 
+            Who should we take on a picnic with us?
+            <span class='pop-out' id='tinyDragon1'>Spike</span> or <span class='pop-out' id='tinyUnicorn1'>Rainbow</span></strong></h6>
+    </div>
     </div>
 
-    <div id="poxySwim">
+    <div id="poxySwim" class="container">
       <img src="./img/poxySwim.png" id="pSwim">
-      <h6>Yay, we're going to the beach! Let's bring another friend along with us. Rainbow the Unicorn and Spike the Dragon love to go to swimming at the beach. Who should we take with us?
-        <span id='poxyDragon'>Spike</span> or <span id='poxyUnicorn'>Rainbow</span></h6>
+      <div class="scrolling">
+      <h6><strong>Yay, we're going to the beach! 
+        Let's bring another friend along with us! 
+          Rainbow the Unicorn and Spike the Dragon love to go to the beach. 
+            Who should we take swimming with us?
+            <span class='pop-out' id='poxyDragon'>Spike</span> or <span class='pop-out' id='poxyUnicorn'>Rainbow</span></strong></h6>
+      </div>
     </div>
 
-    <div id="tinySwim"> 
+    <div id="tinySwim" class="container"> 
       <img src="./img/tinySwim.png" id="tSwimChoice">
-      <h6>Yay, we're going to the beach! Let's bring along another friend. Rainbow the Unicorn and Spike the Dragon love to go swimming at the beach. Who should we take with us? <span id='tinyDragon2'>Spike</span> or <span id='tinyUnicorn2'>Rainbow</span></h6>
+      <div class="scrolling">
+      <h6><strong>Yay, we're going to the beach! 
+        Let's bring along another friend. 
+          Rainbow the Unicorn and Spike the Dragon love to go to the beach. 
+            Who should we take swimming with us? <span class='pop-out' id='tinyDragon2'>Spike</span> or <span class='pop-out' id='tinyUnicorn2'>Rainbow</span></strong></h6>
+    </div>
     </div>
 
-    <div id="tinyDragonPic">
+    <div id="tinyDragonPic" class="container">
       <img src="./img/tinyDragonPic.png" id="tDragonPicnic">
-      <h6>Fun! Now we're ready to have a picnic with our Dragon friend Spike. Let's have some cookies and milk. Yummy! Do you want to go on another adventure? <span id='end'>Start Over</span></h6>
+      <div class="scrolling">
+      <h6><strong>Fun! Now we're ready to have a picnic with our Dragon friend Spike. 
+        We could have some cookies and milk. Yummy! 
+          Do you want to go on another adventure? 
+          <span class='pop-out' id='end'>Start Over</span></strong></h6>
+    </div>
     </div>
 
-    <div id="tinyUnicornPic">
+    <div id="tinyUnicornPic" class="container">
       <img src="./img/tinyUnicornPic.png" id="tUnicornPicnic">
-      <h6>Fun! Now we're ready to have a picnic with our unicorn friend Rainbow. Our picnic will be the best in all the land! Do you want to go on another adventure? <span id='end1'>Start Over</span></h6>
+      <div class="scrolling">
+      <h6><strong>Fun! Now we're ready to have a picnic with our unicorn friend. 
+        Our picnic will be the best in all the land! 
+          Do you want to go on another adventure? 
+          <span class='pop-out' id='end1'>Start Over</span></strong></h6>
+    </div>
     </div>
 
-    <div id="tinyUnicornSwim">
+    <div id="tinyUnicornSwim" class="container">
       <img src="./img/tinyUnicornSwim.png" id="tUnicornSwim">
-      <h6>Fun! Now we're ready to go swimming with our friends. <em>Rainbow the Unicorn loves to use floatees to swim.<em> Enjoy your swim party at the beach! Do you want to go on another adventure? <span id='end2'>Start Over</span></h6>
+      <div class="scrolling">
+      <h6><strong>Fun! Now we're ready to go swimming with our friends. 
+        Rainbow the Unicorn loves to use their floatees to swim. 
+          Enjoy your swim party at the beach! 
+            Do you want to go on another adventure? 
+            <span class='pop-out' id='end2'>Start Over</span></strong></h6>
+      </div>
     </div>
 
-    <div id="tinyDragonSwim">
+    <div id="tinyDragonSwim" class="container">
       <img src="./img/tinyDragonSwim.png" id="tDragonSwim">
-      <h6>Fun! Now we're ready to go swimming with our friends. <em>Spike the Dragon loves to use floatees to swim.<em> Enjoy your swim party at the beach! Do you want to go on another adventure? <span id='end3'>Start Over</span><h6>
+      <div class="scrolling">
+      <h6><strong>Fun! Now we're ready to go swimming with ourfriends. 
+        Spike the Dragon loves to use their floatees to swim. 
+          Enjoy your swim party at the beach! 
+            Do you want to go on another adventure? 
+            <span class='pop-out' id='end3'>Start Over</span></strong><h6>
+      </div>
     </div>
     
-    <div id="poxyUnicornSwim">
+    <div id="poxyUnicornSwim" class="container">
       <img src="./img/poxyUniSwim.png">
-      <h6>Fun! Now we're ready to go swimming with our friends. <em>Rainbow the Unicorn loves to use floatees to swim.<em> Enjoy your swim party at the beach! Do you want to go on another adventure? <span id='end4'>Start Over</span></h6>
+      <div class="scrolling">
+      <h6><strong>Fun! Now we're ready to go swimming with our friends. 
+        Rainbow the Unicorn loves to use their floatees to swim.
+          Enjoy your swim party at the beach! 
+            Do you want to go on another adventure? 
+            <span class='pop-out' id='end4'>Start Over</span></strong></h6>
+      </div>
     </div>
     
-    <div id="poxyDragonSwim">
+    <div id="poxyDragonSwim" class="container">
       <img src="./img/poxyDragonSwim.png">
-      <h6>Fun! Now we're ready to go swimming with our friends. <em>Spike the Dragon loves to use floatees to swim.<em> Enjoy your swim party at the beach! Do you want to go on another adventure? <span id='end5'>Start Over</span></h6>
+      <div class="scrolling">
+      <h6><strong>Fun! Now we're ready to go swimming with our friends. 
+        Spike the Dragon loves to use their floatees to swim. 
+          Enjoy your swim party at the beach! 
+            Do you want to go on another adventure? 
+            <span class='pop-out' id='end5'>Start Over</span></strong></h6>
+      </div>
     </div> 
 
-    <div id="poxyDragonPic">
+    <div id="poxyDragonPic" class="container">
       <img src="./img/poxyDragonPic.png" >
-      <h6>Fun! Now we're ready to have a picnic with our Dragon friend Spike. Our picnic will be the best in all the land! Do you want to go on another adventure? <span id='end6'>Start Over</span></h6>
+      <div class="scrolling">
+      <h6><strong>Fun! Now we're ready to have a picnic with our Dragon friend Spike. 
+        Our picnic will be the best in all the land! 
+          Do you want to go on another adventure? 
+          <span class='pop-out' id='end6'>Start Over</span></strong></h6>
+    </div>
     </div>
 
-    <div id="poxyUnicornPic"> 
+    <div id="poxyUnicornPic" class="container"> 
       <img src="./img/poxyUnicornPic.png">
-      <h6>Fun! Now we're ready to have a picnic with our unicorn friend Rainbow. Our picnic will be the best in all the land! Do you want to go on another adventure? <span id='end7'>Start Over</span></h6>
+      <div class="scrolling">
+      <h6><strong>Fun! Now we're ready to have a picnic with our unicorn friend Rainbow. 
+        Our picnic will be the best in all the land! 
+          Do you want to go on another adventur 
+          <span class='pop-out' id='end7'>Start Over</span></strong></h6>
+    </div>
     </div>
 
   </div>

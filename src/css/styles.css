@@ -1,58 +1,190 @@
+img {
+  width: 100%;
+  height: auto;
+  border-bottom: 300px;
+}
+
 body {
-  background-color: rgb(186, 181, 214);
-  text-shadow: 1px 1px black;
+  text-shadow: 2px 1px black;
   font-size: 20px;
   color: rgb(206, 104, 53);
   font-family: 'Cinzel', serif;
+  background-color: rgb(210, 210, 175);
 }
-/* .center {
-  margin: auto;
-  width: 50%;
-  border: 3px solid g
 
-.typewriter1 h6 {
-  color: rgb(225, 199, 186);
+.title-word {
+  animation: color-animation 4s linear infinite;
+}
+
+.title-word-1 {
+  --color-1: #DF8453;
+  --color-2: #3D8DAE;
+  --color-3: #E4A9A8;
+}
+
+.title-word-2 {
+  --color-1: #DBAD4A;
+  --color-2: #ACCFCB;
+  --color-3: #17494D;
+}
+
+.title-word-3 {
+  --color-1: #ACCFCB;
+  --color-2: #E4A9A8;
+  --color-3: #ACCFCB;
+}
+
+@keyframes color-animation {
+  0%    {color: var(--color-1)}
+  32%   {color: var(--color-1)}
+  33%   {color: var(--color-2)}
+  65%   {color: var(--color-2)}
+  66%   {color: var(--color-3)}
+  99%   {color: var(--color-3)}
+  100%  {color: var(--color-1)}
+}
+
+.title {
+  text-shadow: 4px 4px black;
+  font-family: 'Lobster', cursive;
+  font-size: 80px;
+  padding: 0 0 0 0;
+  margin: 0 auto;
+  text-align: center;
+  Position: absolute;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+
+.scrolling h6 {
+  color: rgb(112, 112, 205);
   position: absolute;
-  top: 30%;
-  left: 10%;
   font-family: 'Cinzel', serif;
   font-size: 25px;
-  overflow: hidden; 
   border-right: .15em; 
-  white-space: pre; 
+  overflow: hidden;
+  white-space: pre;
   margin: 0 auto; 
-  letter-spacing: .15em; 
-  animation: 
-    typing 8.5s steps(45, end),
-    blink-caret .5s step-end infinite;
+  animation: example 10s linear 0s;
 }
 
-#tP1 {
-  color:rgb(112, 112, 205);
-  text-decoration: none;
+@keyframes example {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
 }
 
-#tP1:hover {
-  text-decoration: underline;
+.pop-out {
+  animation: 2s anim-popoutin ease infinite;
 }
 
-#pP1 {
-  color:rgb(112, 112, 205);
-  text-decoration: none;
+@keyframes anim-popoutin {
+  0% {
+    color: #DF8453;
+    transform: scale(0);
+    opacity: 0;
+    text-shadow: 0 0 0 rgba(0, 0, 0, 0);
+  }
+  25% {
+    color: #3D8DAE;
+    transform: scale(2);
+    opacity: 1;
+    text-shadow: 3px 10px 5px rgba(0, 0, 0, 0.5);
+  }
+  50% {
+    color: #17494D;
+    transform: scale(1);
+    opacity: 1;
+    text-shadow: 1px 0 0 rgba(0, 0, 0, 0);
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+    text-shadow: 1px 0 0 rgba(0, 0, 0, 0);
+  }
 }
 
-#pP1:hover {
-  text-decoration: underline;
+#poxyPath1{
+  display: none;
 }
 
-/* The ty ing effect */
-@keyframes typing {
-  from { width: 0 }
-  to { width: 100% }
-}  
+#tinyPath1{
+  display: none;
+}
 
-#tiny, #tinyPicnic1, #tinySwim1, #tinyDragon1, #poxyPicnic1, #poxyDragon, #poxyDragon1, #tinyUnicorn1, #poxyDragonPic1, #tinyDragon2, #dragon1,  #end3, #dragon{
-  color:rgb(112, 112, 205); 
+#tinyPicnic{
+  display: none;
+}
+
+#tinyDragonPicnic {
+  display: none;
+}
+
+#tinyBeach {
+  display: none;
+}
+
+#chose_tiny {
+  flex: 1;
+  display: flex;
+  position: absolute;
+  width: 210px;
+  height: 355px;
+  top: 410px;
+  left: 275px
+}
+
+#chose_poxy {
+  flex: 1;
+  display: flex;
+  position: absolute;
+  width: 190px;
+  height: 355px;
+  top: 410px;
+  left: 820px
+}
+
+#poxy_path {
+  padding: 0 0 0 0;
+  margin: 0 0 0 0;
+  color: rgb(47, 41, 78);
+  Position: absolute;
+  left: 55px;
+  top: 80px;
+}
+
+#path_select_poxy {
+  position: absolute;
+  top: 440px;
+  left: 50px;
+  color: black;
+}
+
+#chose_picnic {
+  position: absolute;
+  width: 110px;
+  height: 160px;
+  top: 170px;
+  left: 185px
+}
+
+#chose_beach {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  top: 290px;
+  left: 470px
+}
+
+#tiny, #tinyPicnic1, #tinySwim1, #tinyDragon1, #poxyPicnic1, #poxyDragon, #poxyDragon1, #tinyUnicorn1, #poxyDragonPic1, #tinyDragon2, #dragon1, #end3, #dragon{
+  color:rgb(237, 19, 168); 
   font-size: 30px;
 }
 
@@ -61,20 +193,20 @@ color:rgb(237, 19, 168);
   font-size: 30px;
 }
 
-#poxy:hover {
+#tiny:hover, #tinyPicnic1:hover, #tinySwim1:hover, #tinyDragon1:hover, #poxyPicnic1:hover, #poxyDragon:hover, #poxyDragon1:hover, #tinyUnicorn1:hover, #poxyDragonPic1:hover, #tinyDragon2:hover, #dragon1:hover, #end3:hover, #dragon:hover {
   text-decoration: underline;
 }
 
-#tiny:hover {
+#poxy:hover, #poxySwim1:hover, #tinySwim1:hover, #tinyUnicorn1:hover, #poxyUnicorn:hover, #tinyUnicorn2:hover, #poxyUnicorn1:hover,#poxyUnicornPic1:hover, #unicorn:hover, #unicorn1:hover, #end:hover, #end1:hover, #end2:hover, #end3:hover, #end4:hover, #end5:hover, #end6:hover, #end7:hover {
   text-decoration: underline;
-}
+  }
 
 #poxyPath{
   display: none; 
 }
 
 #poxyDragonPic{ 
-display: none;
+  display: none;
 }
 
 #poxyPicnic{
@@ -123,44 +255,6 @@ display: none;
 
 #tinyUnicornSwim{
   display: none;
-}
-
-h1 {
-  display: flex;
-  text-shadow: 4px 4px black;
-  font-family: 'Lobster', cursive;
-  font-size: 75px;
-  padding: 0 0 0 0;
-  margin: 0 0 0 0;
-  color: rgb(214, 181, 181);
-  Position: absolute;
-  left: 120px;
-  top: 30px;
-}
-h6{
-  margin-top: 1%;
-}
-img {
-  margin-top: 1%;
-  width: 100%;
-  height: auto;
-  border: 4px solid rgb(63, 35, 224);
-}
-
-/* #character_select {
-  font-size: 20px;
-  position: absolute;
-  top: 550px;
-  left: 85px;
-} */
-
-a {
-  color: rgb(112, 112, 205);
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: underline;
 }
 
 #chose_tiny {
