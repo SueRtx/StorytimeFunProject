@@ -1,7 +1,31 @@
 body {
-  text-shadow: 2px 1px black;
-  font-family: 'Cinzel', serif;
+  /* text-shadow: 2px 1px black; */
+  /* font-family: 'Cinzel', serif; */
   background-color: rgb(210, 210, 175);
+}
+.container1{
+  text-align: center;
+  color: rgb(112, 112, 205);
+  justify-content: center;
+}
+label:hover{
+  color: #DF8453;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: rgb(112, 112, 205);
+  border-color: #007bff;
+  margin: 0px 0px 8px;
+  text-align: center;
+  width: 85px;
+  font-weight: bold;
+}
+.btn-primary:hover{
+  background-color: #DF8453;
+}
+.container1 label{
+  font-size: 38px;
 }
 .pop-out {
   animation: 2s anim-popoutin ease infinite;
@@ -54,111 +78,6 @@ body {
   color: rgb(84, 42, 183);
 }
 
-
-/*
-#choosePoxyPicnic1 {
-  margin-top: -33%;
-  margin-left: 19%; 
-  font-size: 42px;
-  animation: opacity 2s ease-in-out infinite;
-  opacity: 1;
-  color: rgb(234, 43, 43);  
-}
-@keyframes opacity {
-0% {
-  opacity: 1;
-}
-50% {
-  opacity: 0
-}
-100% {
-  opacity: 1;
-}
-}
-
-#choosePoxySwim1{
-  margin-top: -20%;
-  margin-left: 51%;
-  font-size: 42px;
-  font-style: bolder;
-  animation: opacity 2s ease-in-out infinite;
-  opacity: 1;
-  color: rgb(61, 61, 228);  
-}
-@keyframes opacity {
-0% {
-  opacity: 1;
-}
-50% {
-  opacity: 0
-}
-100% {
-  opacity: 1;
-}
-}
-
-#choosepoxyDragon1 {
-  margin-top: -39%;
-  margin-left: 37%; 
-  font-size: 42px;
-  animation: opacity 2s ease-in-out infinite;
-  opacity: 1;
-  color: rgb(234, 43, 43);  
-}
-@keyframes opacity {
-0% {
-  opacity: 1;
-}
-50% {
-  opacity: 0
-}
-100% {
-  opacity: 1;
-}
-}
-
-#choosepoxyUnicorn1{
-  margin-top: -7%;
-  margin-left: 65%;
-  font-size: 42px;
-  font-style: bolder;
-  animation: opacity 2s ease-in-out infinite;
-  opacity: 1;
-  color: rgb(61, 61, 228);  
-}
-@keyframes opacity {
-0% {
-  opacity: 1;
-}
-50% {
-  opacity: 0
-}
-100% {
-  opacity: 1;
-}
-}
-
-#chooseEnd6{
-  margin-top: -57%;
-  margin-left: 50%;
-  font-size: 42px;
-  font-style: bolder;
-  animation: opacity 2s ease-in-out infinite;
-  opacity: 1;
-  color: rgb(61, 61, 228);  
-}
-@keyframes opacity {
-0% {
-  opacity: 1;
-}
-50% {
-  opacity: 0
-}
-100% {
-  opacity: 1;
-}
-}
-*/
 .Picnic{
   border: 5px solid #1b3d6d;
 }
@@ -209,7 +128,7 @@ img {
 
 .title {
   text-shadow: 4px 4px black;
-  font-family: 'Lobster', cursive;
+  /* font-family: 'Lobster', cursive; */
   font-size: 75px;
   padding: 0 0 0 0;
   margin-top: -55%;
@@ -287,7 +206,7 @@ img {
 .scrolling h6 {
   color: rgb(112, 112, 205);
   position: absolute;
-  font-family: 'Cinzel', serif;
+  /* font-family: 'Cinzel', serif; */
   font-size: 25px;
   border-right: .15em; 
   overflow: hidden;

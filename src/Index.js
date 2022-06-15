@@ -2,12 +2,39 @@ import $ from 'jquery';
 import 'bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './css/styles.css';
+import GoogleFont from './template.js';
 
 
 
 
 $(document).ready(function() {
+  $('#btn').click(function(){
+    
+    $('#myStyle').remove();
+    let fonts = $("input[name='font']:checked").val();
+    let promise = GoogleFont.getFont(fonts);
+    promise.then(function(response){
+      
+      const body = response.toString().split('*/')[1];
+      $('head').append(`<style id="myStyle">
+                        ${body} </style>`);
+      let $x = $('body');
+      $x.css(`font-family`, `'${fonts}'`);
+      $x.css(`font-size`, `38px`);
 
+      let $y = $('.title');
+      $y.css(`font-family`, `'${fonts}'`);
+      $y.css(`font-size`, `38px`);
+
+      let $z = $('.scrolling h6');
+      $z.css(`font-family`, `'${fonts}'`);
+      $z.css(`font-size`, `38px`);
+
+    }, function(error){
+      $('.showErrors').text(`There was an error processing your request: ${error}`);
+    });
+  
+});
 /*Unicorn Party Starts*/
 $('#party').click(function(){
   $('#page1').hide();
