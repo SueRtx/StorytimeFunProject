@@ -1,7 +1,31 @@
 body {
-  text-shadow: 2px 1px black;
-  font-family: 'Cinzel', serif;
+  /* text-shadow: 2px 1px black; */
+  /* font-family: 'Cinzel', serif; */
   background-color: rgb(210, 210, 175);
+}
+.container1{
+  text-align: center;
+  color: rgb(112, 112, 205);
+  justify-content: center;
+}
+label:hover{
+  color: #DF8453;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: rgb(112, 112, 205);
+  border-color: #007bff;
+  margin: 0px 0px 8px;
+  text-align: center;
+  width: 85px;
+  font-weight: bold;
+}
+.btn-primary:hover{
+  background-color: #DF8453;
+}
+.container1 label{
+  font-size: 38px;
 }
 .pop-out {
   animation: 2s anim-popoutin ease infinite;
@@ -244,7 +268,7 @@ img {
 
 .title {
   text-shadow: 4px 4px black;
-  font-family: 'Lobster', cursive;
+  /* font-family: 'Lobster', cursive; */
   font-size: 75px;
   padding: 0 0 0 0;
   margin-top: -55%;
@@ -344,7 +368,7 @@ img {
 .scrolling h6 {
   color: rgb(112, 112, 205);
   position: absolute;
-  font-family: 'Cinzel', serif;
+  /* font-family: 'Cinzel', serif; */
   font-size: 25px;
   border-right: .15em; 
   overflow: hidden;
