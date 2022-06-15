@@ -38,7 +38,7 @@ $('#party').click(function(){
   $('#unicornParty').show();
 });
 
-$('#end32').click(function(){
+$('#overParty').click(function(){
   $('#unicornParty').hide();
   $('#page1').show();
 });
@@ -49,7 +49,7 @@ $('#basket').click(function(){
   $('#picnicFriends').show();
 });
 
-$('#end30').click(function(){
+$('#overPicnic').click(function(){
   $('#picnicFriends').hide();
   $('#page1').show();
 });
@@ -60,7 +60,7 @@ $('#swim').click(function(){
   $('#swimFriends').show();
 });
 
-$('#end31').click(function(){
+$('#overSwim').click(function(){
   $('#swimFriends').hide();
   $('#page1').show();
 });
@@ -77,7 +77,7 @@ $('#unicornPicnic2').click(function(){
   $('#sunUnicornPicnic').show();
 });
 
-$('#end10').click(function(){
+$('#overSunPicnic').click(function(){
   $('#sunUnicornPicnic').hide();
   $('#page1').show();
 });
@@ -88,7 +88,7 @@ $('#dragonPicnic2').click(function(){
   $('#sunDragonPicnic').show();
 });
 
-$('#end15').click(function(){
+$('#overSunPicnic2').click(function(){
   $('#sunDragonPicnic').hide();
   $('#page1').show();
 });
@@ -99,7 +99,7 @@ $('#poxyPicnic2').click(function(){
   $('#sunPoxyPicnic').show();
 });
 
-$('#end13').click(function(){
+$('#overSunPicnic3').click(function(){
   $('#sunPoxyPicnic').hide();
   $('#page1').show();
 });
@@ -141,9 +141,6 @@ $('#end14').click(function(){
   $('#dragonPoxyBall').hide();
   $('#page1').show();
 });
-
-
-
 
   /* Tiny Picnic/Dragon Path Starts*/
   $('#tiny').click(function(){

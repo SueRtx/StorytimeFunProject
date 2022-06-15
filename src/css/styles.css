@@ -270,7 +270,12 @@ img {
   height: auto;
 }
 
-.startOver{
+.startOverSunPicnic {
+  margin-top: -8%;
+  margin-left: 33%;
+}
+
+.startOver, #startOverSwim{
   margin-top: -10%;
   margin-left: 80%;
   font-size: 50px;
@@ -288,6 +293,18 @@ img {
 100% {
   opacity: 1;
 }
+}
+
+.startOverSpike{
+  margin-top: -8%;
+  margin-left: 82%;
+  color: rgb(239, 52, 46);
+}
+
+#startOverPicnic{
+  margin-top: -60%;
+  margin-left: 5%;
+  color: rgb(239, 52, 46);
 }
 
 img {
