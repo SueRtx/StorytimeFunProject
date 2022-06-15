@@ -13,13 +13,13 @@ body {
 }
 
 #helpSun {
-  margin-top: -5%;
+  margin-top: -10%;
   margin-left: 82%;
   color: rgb(230, 122, 80);
 }
 
 #helpDragon {
-  margin-top: -40%;
+  margin-top: -35%;
   margin-left: 40%;
   color: rgb(243, 235, 241);
 }
@@ -159,7 +159,7 @@ body {
 }
 }
 */
-.Picnic{
+.picture {
   border: 5px solid #1b3d6d;
 }
 
@@ -242,7 +242,7 @@ img {
   height: 350px;
   size: relative;
   position: absolute;
-  top: 45%;
+  top: 43%;
   left: 17%;
   animation: shake 3s;
   animation-iteration-count: infinite
@@ -253,7 +253,7 @@ img {
   height: 350px;
   size: relative;
   position: absolute;
-  top: 45%;
+  top: 42.5%;
   left: 63.5%;
   animation: shake 3s;
   animation-iteration-count: infinite
@@ -266,6 +266,28 @@ img {
   position: absolute;
   top: 8%;
   left: 36%;
+  animation: shake 3s;
+  animation-iteration-count: infinite
+}
+
+.image5 {
+  width: 160px;
+  height: 200px;
+  size: relative;
+  position: absolute;
+  top: 17.5%;
+  left: 3%;
+  animation: shake 3s;
+  animation-iteration-count: infinite
+}
+
+.image6 {
+  width: 200px;
+  height: 200px;
+  size: relative;
+  position: absolute;
+  top: 3.5%;
+  left: 79%;
   animation: shake 3s;
   animation-iteration-count: infinite
 }
