@@ -8,15 +8,19 @@ body {
   font-size: 30px;
 }
 
+.pages{
+  border: 5px solid #1b3d6d;
+}
+
 #helpSun {
-  margin-top: -2%;
-  margin-left: 80%;
+  margin-top: -5%;
+  margin-left: 82%;
   color: rgb(230, 122, 80);
 }
 
 #helpDragon {
-  margin-top: -44%;
-  margin-left: 43%;
+  margin-top: -40%;
+  margin-left: 40%;
   color: rgb(243, 235, 241);
 }
 
@@ -30,6 +34,24 @@ body {
   margin-top: -4%;
   margin-left: 72%;
   color: rgb(40, 183, 24);
+}
+
+#picnicOption {
+  margin-top: -9%;
+  margin-left: 87%;
+  color: rgb(211, 46, 175);
+}
+
+#swimOption {
+  margin-top: -6%;
+  margin-left: 2%;
+  color: rgb(211, 46, 175);
+}
+
+#helpRainbow {
+  margin-top: -20%;
+  margin-left: 5%;
+  color: rgb(84, 42, 183);
 }
 
 
@@ -242,8 +264,8 @@ img {
   height: 210px;
   size: relative;
   position: absolute;
-  top: 1%;
-  left: 38%;
+  top: 8%;
+  left: 36%;
   animation: shake 3s;
   animation-iteration-count: infinite
 }
@@ -440,3 +462,13 @@ color:rgb(237, 19, 168);
   display: none;
 }
 
+#picnicFriends{
+  display: none;
+}
+#swimFriends{
+  display: none;
+}
+
+#unicornParty {
+  display: none;
+}

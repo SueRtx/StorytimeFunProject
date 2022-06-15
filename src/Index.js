@@ -4,7 +4,43 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './css/styles.css';
 
 
+
+
 $(document).ready(function() {
+
+/*Unicorn Party Starts*/
+$('#party').click(function(){
+  $('#page1').hide();
+  $('#unicornParty').show();
+});
+
+$('#end32').click(function(){
+  $('#unicornParty').hide();
+  $('#page1').show();
+});
+
+/*Picnic Friends Starts*/
+$('#basket').click(function(){
+  $('#page1').hide();
+  $('#picnicFriends').show();
+});
+
+$('#end30').click(function(){
+  $('#picnicFriends').hide();
+  $('#page1').show();
+});
+
+/*Swim FriendstStarts*/
+$('#swim').click(function(){
+  $('#page1').hide();
+  $('#swimFriends').show();
+});
+
+$('#end31').click(function(){
+  $('#swimFriends').hide();
+  $('#page1').show();
+});
+
 
 /* Sunny Unicorn/Picnic Starts*/
 $('#sun').click(function(){
