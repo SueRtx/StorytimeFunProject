@@ -30,11 +30,8 @@ label:hover{
 
 .container1 label{
   font-size: 20px;
-  font-weight: bold;
-}
-
-#fontStyle{
   color: #17494D;
+  font-weight: bold;
 }
 
 .pop-out {
@@ -88,15 +85,15 @@ label:hover{
   color: rgb(84, 42, 183);
 }
 
- /*#tinyDragon1, #poxyDragon, #poxyDragon1, #tinyUnicorn1, #poxyDragonPic1, #tinyDragon2, #dragon1, #end3, #dragon{
-  color:rgb(237, 19, 168); 
+#tinyDragon1, #poxyDragon, #poxyDragon1, #tinyUnicorn1, #poxyDragonPic1, #tinyDragon2, #dragon1, #end3, #dragon{
+  color:rgb(115, 58, 195); 
+  font-size: 30px;
+} 
+
+#tinyUnicorn1, #poxyUnicorn, #tinyUnicorn2, #poxyUnicorn1,#poxyUnicornPic1, #unicorn, #unicorn1{
+color:rgb(235, 58, 179);
   font-size: 30px;
 }
-
- #tinyUnicorn1, #poxyUnicorn, #tinyUnicorn2, #poxyUnicorn1,#poxyUnicornPic1, #unicorn, #unicorn1, #end, #end1, #end2, #end3, #end4, #end5, #end6, #end7{
-color:rgb(237, 19, 168);
-  font-size: 30px;
-}*/
 
 #tiny:hover, #tinyPicnic1:hover, #tinySwim1:hover, #tinyDragon1:hover, #poxyPicnic1:hover, #poxyDragon:hover, #poxyDragon1:hover, #tinyUnicorn1:hover, #poxyDragonPic1:hover, #tinyDragon2:hover, #dragon1:hover, #end3:hover, #dragon:hover {
   text-decoration: underline;
@@ -167,12 +164,11 @@ color:rgb(237, 19, 168);
 }
 
 #choosepoxyDragon1, #chooseTinyDragon1 {
-  margin-top: -33%;
-  margin-left: 37%; 
-  font-size: 42px;
+  margin-top: -32%;
+  margin-left: 36%; 
+  font-size: 32px;
   animation: opacity 2s ease-in-out infinite;
-  opacity: 1;
-  color: rgb(234, 43, 43);  
+  opacity: 1; 
 }
 @keyframes opacity {
 0% {
@@ -187,10 +183,9 @@ color:rgb(237, 19, 168);
 }
 
 #choosepoxyUnicorn1, #chooseTinyyUnicorn1{
-  margin-top: -6%;
+  margin-top: -4%;
   margin-left: 65%;
-  font-size: 42px;
-  font-style: bolder;
+  font-size: 32px;
   animation: opacity 2s ease-in-out infinite;
   opacity: 1;
   color: rgb(61, 61, 228);  
@@ -213,7 +208,7 @@ color:rgb(237, 19, 168);
   font-size: 50px;
   animation: opacity 2s ease-in-out infinite;
   opacity: 1;
-  color: rgb(61, 61, 228);  
+  color: rgb(239, 52, 46);  
 }
 @keyframes opacity {
 0% {
@@ -230,7 +225,6 @@ color:rgb(237, 19, 168);
 img {
   width: 100%;
   height: auto;
-  
 }
 
 .title-word {
@@ -494,9 +488,6 @@ img {
 #tinyUnicornSwim{
   display: none;
 }
-.scrolling{
-  position: relative;
-}
 
 #dragonPoxyBall{
   display: none;
@@ -525,10 +516,15 @@ img {
 #picnicFriends{
   display: none;
 }
+
 #swimFriends{
   display: none;
 }
 
 #unicornParty {
   display: none;
+}
+
+.scrolling{
+  position: relative;
 }
