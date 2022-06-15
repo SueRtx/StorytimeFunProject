@@ -2,10 +2,7 @@ import $ from 'jquery';
 import 'bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './css/styles.css';
-import GoogleFont from './template.js';
-
-
-
+import GoogleFont from './story.js';
 
 $(document).ready(function() {
   $('#btn').click(function(){
@@ -17,18 +14,18 @@ $(document).ready(function() {
       
       const body = response.toString().split('*/')[1];
       $('head').append(`<style id="myStyle">
-                        ${body} </style>`);
+      ${body} </style>`);
       let $x = $('body');
       $x.css(`font-family`, `'${fonts}'`);
-      $x.css(`font-size`, `38px`);
+      //$x.css(`font-size`, `38px`);
 
       let $y = $('.title');
       $y.css(`font-family`, `'${fonts}'`);
-      $y.css(`font-size`, `38px`);
+      //$y.css(`font-size`, `38px`);
 
       let $z = $('.scrolling h6');
       $z.css(`font-family`, `'${fonts}'`);
-      $z.css(`font-size`, `38px`);
+      //$z.css(`font-size`, `38px`);
 
     }, function(error){
       $('.showErrors').text(`There was an error processing your request: ${error}`);
