@@ -22,9 +22,9 @@ Users are prompted to choose their path with the different characters of the sto
 
 ## Known Bugs
   * If using a windows computer open package.json and confirm that the scripts:start line looks like this:
-  '"start": "npm run build & webpack-dev-server --open --mode development"'
+  *"start": "npm run build & webpack-dev-server --open --mode development"*
   * If using a Mac computer open package.json and confirm that the scripts:start line looks like this:
-  '"start": "npm run build; webpack-dev-server --open --mode development"'
+  *"start": "npm run build; webpack-dev-server --open --mode development"*
 
 ## Technologies Used
 

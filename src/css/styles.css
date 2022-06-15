@@ -8,97 +8,133 @@ body {
   font-size: 30px;
 }
 
-.pages{
+.pages, .picture{
   border: 5px solid #1b3d6d;
 }
 
+
 #helpSun {
-  margin-top: -10%;
-  margin-left: 82%;
+  margin-top: -5%;
+  margin-left: 78%;
   color: rgb(230, 122, 80);
 }
 
 #helpDragon {
-  margin-top: -35%;
-  margin-left: 40%;
+  margin-top: -36.5%;
+  margin-left: 55%;
   color: rgb(243, 235, 241);
 }
 
 #helpPoxy {
-  margin-top: -4%;
-  margin-left: 23%;
-  color: rgb(242, 98, 54);
+  margin-top: -5%;
+  margin-left: 22%;
+  color: rgb(233, 70, 21);
 }
 
 #helpTiny {
-  margin-top: -4%;
-  margin-left: 72%;
-  color: rgb(40, 183, 24);
+  margin-top: -5%;
+  margin-left: 71%;
+  color: rgb(230, 21, 21);
 }
 
 #picnicOption {
-  margin-top: -9%;
-  margin-left: 87%;
+  margin-top: -18%;
+  margin-left: 88%;
   color: rgb(211, 46, 175);
 }
 
 #swimOption {
-  margin-top: -6%;
+  margin-top: 4%;
   margin-left: 2%;
   color: rgb(211, 46, 175);
 }
 
 #helpRainbow {
-  margin-top: -20%;
-  margin-left: 5%;
+  margin-top: -17%;
+  margin-left: 6%;
   color: rgb(84, 42, 183);
 }
 
+ /*#tinyDragon1, #poxyDragon, #poxyDragon1, #tinyUnicorn1, #poxyDragonPic1, #tinyDragon2, #dragon1, #end3, #dragon{
+  color:rgb(237, 19, 168); 
+  font-size: 30px;
+}
 
-/*
+ #tinyUnicorn1, #poxyUnicorn, #tinyUnicorn2, #poxyUnicorn1,#poxyUnicornPic1, #unicorn, #unicorn1, #end, #end1, #end2, #end3, #end4, #end5, #end6, #end7{
+color:rgb(237, 19, 168);
+  font-size: 30px;
+}*/
+
+#tiny:hover, #tinyPicnic1:hover, #tinySwim1:hover, #tinyDragon1:hover, #poxyPicnic1:hover, #poxyDragon:hover, #poxyDragon1:hover, #tinyUnicorn1:hover, #poxyDragonPic1:hover, #tinyDragon2:hover, #dragon1:hover, #end3:hover, #dragon:hover {
+  text-decoration: underline;
+}
+
+#poxy:hover, #poxySwim1:hover, #tinySwim1:hover, #tinyUnicorn1:hover, #poxyUnicorn:hover, #tinyUnicorn2:hover, #poxyUnicorn1:hover,#poxyUnicornPic1:hover, #unicorn:hover, #unicorn1:hover, #end:hover, #end1:hover, #end2:hover, #end3:hover, #end4:hover, #end5:hover, #end6:hover, #end7:hover {
+  text-decoration: underline;
+  }
+
 #choosePoxyPicnic1 {
+  margin-top: -28%;
+  margin-left: 17%; 
+  font-size: 42px;
+  animation: opacity 2s ease-in-out infinite;
+  opacity: 1;
+  color: rgb(99, 73, 20);  
+}
+@keyframes opacity {
+0% {
+  opacity: 1;
+}
+50% {
+  opacity: 0
+}
+100% {
+  opacity: 1;
+}
+}
+
+#chooseTinyPicnic1 {
+  margin-top: -28%;
+  margin-left: 17%; 
+  font-size: 42px;
+  animation: opacity 2s ease-in-out infinite;
+  opacity: 1;
+  color: rgb(99, 73, 20);  
+}
+@keyframes opacity {
+0% {
+  opacity: 1;
+}
+50% {
+  opacity: 0
+}
+100% {
+  opacity: 1;
+}
+}
+
+#choosePoxySwim1, #chooseTinySwim1{
+  margin-top: -18%;
+  margin-left: 50.5%;
+  font-size: 42px;
+  animation: opacity 2s ease-in-out infinite;
+  opacity: 1;
+  color: rgb(99, 73, 20);  
+}  
+@keyframes opacity {
+0% {
+  opacity: 1;
+}
+50% {
+  opacity: 0
+}
+100% {
+  opacity: 1;
+}
+}
+
+#choosepoxyDragon1, #chooseTinyDragon1 {
   margin-top: -33%;
-  margin-left: 19%; 
-  font-size: 42px;
-  animation: opacity 2s ease-in-out infinite;
-  opacity: 1;
-  color: rgb(234, 43, 43);  
-}
-@keyframes opacity {
-0% {
-  opacity: 1;
-}
-50% {
-  opacity: 0
-}
-100% {
-  opacity: 1;
-}
-}
-
-#choosePoxySwim1{
-  margin-top: -20%;
-  margin-left: 51%;
-  font-size: 42px;
-  font-style: bolder;
-  animation: opacity 2s ease-in-out infinite;
-  opacity: 1;
-  color: rgb(61, 61, 228);  
-}
-@keyframes opacity {
-0% {
-  opacity: 1;
-}
-50% {
-  opacity: 0
-}
-100% {
-  opacity: 1;
-}
-}
-
-#choosepoxyDragon1 {
-  margin-top: -39%;
   margin-left: 37%; 
   font-size: 42px;
   animation: opacity 2s ease-in-out infinite;
@@ -117,8 +153,8 @@ body {
 }
 }
 
-#choosepoxyUnicorn1{
-  margin-top: -7%;
+#choosepoxyUnicorn1, #chooseTinyyUnicorn1{
+  margin-top: -6%;
   margin-left: 65%;
   font-size: 42px;
   font-style: bolder;
@@ -138,11 +174,10 @@ body {
 }
 }
 
-#chooseEnd6{
-  margin-top: -57%;
+#chooseEnd, #chooseEnd1, #chooseEnd6, #chooseEnd7 {
+  margin-top: -50%;
   margin-left: 50%;
-  font-size: 42px;
-  font-style: bolder;
+  font-size: 50px;
   animation: opacity 2s ease-in-out infinite;
   opacity: 1;
   color: rgb(61, 61, 228);  
@@ -242,7 +277,7 @@ img {
   height: 350px;
   size: relative;
   position: absolute;
-  top: 43%;
+  top: 42%;
   left: 17%;
   animation: shake 3s;
   animation-iteration-count: infinite
@@ -253,8 +288,8 @@ img {
   height: 350px;
   size: relative;
   position: absolute;
-  top: 42.5%;
-  left: 63.5%;
+  top: 41%;
+  left: 64%;
   animation: shake 3s;
   animation-iteration-count: infinite
 }
@@ -264,8 +299,8 @@ img {
   height: 210px;
   size: relative;
   position: absolute;
-  top: 8%;
-  left: 36%;
+  top: 6%;
+  left: 42%;
   animation: shake 3s;
   animation-iteration-count: infinite
 }
@@ -275,8 +310,8 @@ img {
   height: 200px;
   size: relative;
   position: absolute;
-  top: 17.5%;
-  left: 3%;
+  top: 21%;
+  left: 4%;
   animation: shake 3s;
   animation-iteration-count: infinite
 }
@@ -286,8 +321,8 @@ img {
   height: 200px;
   size: relative;
   position: absolute;
-  top: 3.5%;
-  left: 79%;
+  top: 2%;
+  left: 81%;
   animation: shake 3s;
   animation-iteration-count: infinite
 }
@@ -381,24 +416,6 @@ img {
   display: none;
 }
 
- #tinyPicnic1, #tinySwim1, #tinyDragon1, #poxyPicnic1, #poxyDragon, #poxyDragon1, #tinyUnicorn1, #poxyDragonPic1, #tinyDragon2, #dragon1, #end3, #dragon{
-  color:rgb(237, 19, 168); 
-  font-size: 30px;
-}
-
-#poxySwim1, #tinySwim1, #tinyUnicorn1, #poxyUnicorn, #tinyUnicorn2, #poxyUnicorn1,#poxyUnicornPic1, #unicorn, #unicorn1, #end, #end1, #end2, #end3, #end4, #end5, #end6, #end7{
-color:rgb(237, 19, 168);
-  font-size: 30px;
-}
-
-#tiny:hover, #tinyPicnic1:hover, #tinySwim1:hover, #tinyDragon1:hover, #poxyPicnic1:hover, #poxyDragon:hover, #poxyDragon1:hover, #tinyUnicorn1:hover, #poxyDragonPic1:hover, #tinyDragon2:hover, #dragon1:hover, #end3:hover, #dragon:hover {
-  text-decoration: underline;
-}
-
-#poxy:hover, #poxySwim1:hover, #tinySwim1:hover, #tinyUnicorn1:hover, #poxyUnicorn:hover, #tinyUnicorn2:hover, #poxyUnicorn1:hover,#poxyUnicornPic1:hover, #unicorn:hover, #unicorn1:hover, #end:hover, #end1:hover, #end2:hover, #end3:hover, #end4:hover, #end5:hover, #end6:hover, #end7:hover {
-  text-decoration: underline;
-  }
-
 #poxyPath{
   display: none; 
 }
@@ -457,11 +474,6 @@ color:rgb(237, 19, 168);
 .scrolling{
   position: relative;
 }
-
-/* this is for the two images two rest ontop of each other */  
-
-
-
 
 #dragonPoxyBall{
   display: none;
