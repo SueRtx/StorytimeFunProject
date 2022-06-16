@@ -1,17 +1,17 @@
 body {
   /* text-shadow: 2px 1px black; */
   /* font-family: 'Cinzel', serif; */
-  background-color: rgb(210, 210, 175);
+  background-color: rgb(1, 14, 17);
 }
 
 .container1{
   text-align: center;
-  color: rgb(53, 53, 190);
+  color: rgb(106, 170, 238);
   justify-content: center;
 }
 
 label:hover{
-  color: #ec4a18;
+  color: #e6f764;
 }
 
 .btn-primary {
@@ -25,12 +25,12 @@ label:hover{
 }
 
 .btn-primary:hover{
-  background-color: #ec4a18;
+  background-color: #b718ec;
 }
 
-.container1 label{
+label{
   font-size: 20px;
-  color: #17494D;
+  color: #c44ee8;
   font-weight: bold;
 }
 
@@ -40,7 +40,7 @@ label:hover{
 }
 
 .pages, .picture{
-  border: 5px solid #1b3d6d;
+  border: 5px solid #1292ab;
 }
 
 #helpSun {
@@ -202,9 +202,6 @@ color:rgb(235, 58, 179);
 }
 }
 
-
-
-
 #choosePoxyyUnicorn, #chooseTinyUnicorn{  
   margin-top: 6%;
   margin-left: 38%; 
@@ -225,7 +222,6 @@ color:rgb(235, 58, 179);
 }
 
 #choosePoxyDragon, #chooseTinyDragon {
-
   margin-top: -38%;
   margin-left: 79%;
   font-size: 32px;
@@ -313,11 +309,6 @@ img {
   color: rgb(239, 52, 46);
 }
 
-img {
-  width: 100%;
-  height: auto;
-}
-
 .title-word {
   animation: color-animation 4s linear infinite;
 }
@@ -377,7 +368,7 @@ img {
   position: relative;
   top: 0;
   left: 0;
-  border: 5px solid #1b3d6d;
+  border: 5px solid #1292ab;
 }
 
 .image2 {

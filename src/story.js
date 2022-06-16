@@ -4,7 +4,7 @@ export default class GoogleFont {
       let request = new XMLHttpRequest();
       const url =`https://fonts.googleapis.com/css?family=${fonts}`;
       request.onload = function(){
-       
+      
         if (this.status === 200) {
           resolve (request.response);
         } else {

@@ -17,22 +17,20 @@ $(document).ready(function() {
       ${body} </style>`);
       let $x = $('body');
       $x.css(`font-family`, `'${fonts}'`);
-      //$x.css(`font-size`, `38px`);
-
+      
       let $y = $('.title');
       $y.css(`font-family`, `'${fonts}'`);
-      //$y.css(`font-size`, `38px`);
-
+      
       let $z = $('.scrolling h6');
       $z.css(`font-family`, `'${fonts}'`);
-      //$z.css(`font-size`, `38px`);
+      $z.css(`font-size`, `30px`);
 
     }, function(error){
       $('.showErrors').text(`There was an error processing your request: ${error}`);
     });
   
   });
-/*Unicorn Party Starts*/
+  /*Unicorn Party Starts*/
   $('#party').click(function(){
     $('#page1').hide();
     $('#unicornParty').show();
