@@ -307,6 +307,13 @@ img {
   color: rgb(239, 52, 46);
 }
 
+#overParty {
+  margin-top: -55%;
+  margin-left: 30%;
+  color: rgb(239, 52, 46);
+}
+
+
 img {
   width: 100%;
   height: auto;

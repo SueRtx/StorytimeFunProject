@@ -137,7 +137,7 @@ $('#poxyBall').click(function(){
   $('#dragonPoxyBall').show();
 });
 
-$('#end14').click(function(){
+$('#end10').click(function(){
   $('#dragonPoxyBall').hide();
   $('#page1').show();
 });
