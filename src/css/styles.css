@@ -85,6 +85,23 @@ label{
   color: rgb(84, 42, 183);
 }
 
+#tinyBall1 {
+  margin-top: -8%;
+  margin-left: 10%; 
+}
+
+#unicornBall1 {
+  margin-top: -4%;
+  margin-left: 35%; 
+}
+
+#poxyBall1 {
+  margin-top: -4.5%;
+  margin-left: 59%; 
+}
+
+
+
 #tinyDragon1, #poxyDragon, #poxyDragon1, #tinyUnicorn1, #poxyDragonPic1, #tinyDragon2, #dragon1, #end3, #dragon{
   color:rgb(115, 58, 195); 
   font-size: 30px;
