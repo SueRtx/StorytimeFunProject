@@ -28,7 +28,6 @@ Users are prompted to choose their path with the different characters of the sto
 
 ## Technologies Used
 
-Technology Used!
 * HTML
 * CSS
 * Bootstrap
