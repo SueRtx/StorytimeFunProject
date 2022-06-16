@@ -30,6 +30,36 @@ $(document).ready(function() {
     });
   
   });
+
+  /*Beach*/
+  $('#beach').click(function(){
+    $('#page1').hide();
+    $('.container1').hide();
+    $('#beachEmpty').show();
+
+  });
+
+  $('#goBack').click(function(){
+    $('#beachEmpty').hide();
+    $('.container1').show();
+    $('#page1').show();
+  });
+
+  /*Hill*/
+  $('#hill').click(function(){
+    $('#page1').hide();
+    $('.container1').hide();
+    $('#hillEmpty').show();
+
+  });
+
+  $('#goBack1').click(function(){
+    $('#hillEmpty').hide();
+    $('.container1').show();
+    $('#page1').show();
+  });
+
+
   /*Unicorn Party Starts*/
   $('#party').click(function(){
     $('#page1').hide();

@@ -639,6 +639,14 @@ img {
   display: none;
 }
 
+#hillEmpty {
+  display: none;
+}
+
+#beachEmpty {
+  display: none;
+}
+
 .scrolling {
   position: relative;
 }
