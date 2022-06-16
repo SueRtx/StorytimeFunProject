@@ -16,7 +16,7 @@ module.exports = {
   plugins: [
     new CleanWebpackPlugin(),
     new HtmlWebpackPlugin({
-      title: 'story-time-fun',
+      title: 'story-time',
       template: './src/index.html',
       inject: 'body'
     }),

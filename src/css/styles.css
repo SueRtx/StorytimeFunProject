@@ -1,12 +1,12 @@
 body {
-  /* text-shadow: 2px 1px black; */
-  /* font-family: 'Cinzel', serif; */
-  background-color: rgb(1, 14, 17);
+  text-shadow: 1px 1px black; 
+  font-family: 'Lobster', cursive; 
+  background-color: rgb(210, 223, 247);
 }
 
 .container1{
   text-align: center;
-  color: rgb(106, 170, 238);
+  color: rgb(93, 93, 203);
   justify-content: center;
 }
 
@@ -314,21 +314,21 @@ img {
 }
 
 .title-word-1 {
-  --color-1: #DF8453;
-  --color-2: #3D8DAE;
-  --color-3: #E4A9A8;
+  --color-1: rgb(34, 34, 240);
+  --color-2: yellow;
+  --color-3: rgb(244, 15, 15);
 }
 
 .title-word-2 {
-  --color-1: #DBAD4A;
-  --color-2: #ACCFCB;
-  --color-3: #17494D;
+  --color-1: rgb(13, 183, 13);
+  --color-2: orange;
+  --color-3: rgb(205, 37, 205);
 }
 
 .title-word-3 {
-  --color-1: #ACCFCB;
-  --color-2: #E4A9A8;
-  --color-3: #ACCFCB;
+  --color-1: yellow;
+  --color-2: red;
+  --color-3: rgb(34, 34, 240);
 }
 
 @keyframes color-animation {
@@ -441,9 +441,8 @@ img {
 }
 
 .scrolling h6 {
-  color: rgb(112, 112, 205);
+  color: rgb(93, 93, 203);
   position: absolute;
-  /* font-family: 'Cinzel', serif; */
   font-size: 25px;
   border-right: .15em; 
   overflow: hidden;
