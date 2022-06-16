@@ -65,7 +65,6 @@ $('#overSwim').click(function(){
   $('#page1').show();
 });
 
-
 /* Sunny Unicorn/Picnic Starts*/
 $('#sun').click(function(){
   $('#page1').hide();

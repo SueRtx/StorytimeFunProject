@@ -313,7 +313,6 @@ img {
   color: rgb(239, 52, 46);
 }
 
-
 img {
   width: 100%;
   height: auto;
@@ -403,7 +402,7 @@ img {
   animation-iteration-count: infinite
 }
 
-.image4{
+.image4 {
   width: 190px;
   height: 210px;
   size: relative;
@@ -497,15 +496,15 @@ img {
   }
 }
 
-#poxyPath1{
+#poxyPath1 {
   display: none;
 }
 
-#tinyPath1{
+#tinyPath1 {
   display: none;
 }
 
-#tinyPicnic{
+#tinyPicnic {
   display: none;
 }
 
@@ -521,11 +520,11 @@ img {
   display: none;
 }
 
-#dragonBall{
+#dragonBall {
   display: none;
 }
 
-#poxyPath{
+#poxyPath {
   display: none; 
 }
 
@@ -533,7 +532,7 @@ img {
   display: none;
 }
 
-#poxyPicnic{
+#poxyPicnic {
   display: none; 
 }
 
@@ -545,39 +544,39 @@ img {
   display: none;
 }
   
-#poxyDragonSwim{
+#poxyDragonSwim {
   display: none;
 }
 
-#poxyUnicornSwim{
+#poxyUnicornSwim {
   display: none;
 }
 
-#tinyPath{
+#tinyPath {
   display: none;
 } 
 
-#tinyPicnic{
+#tinyPicnic {
   display: none;
 }
 
-#tinyDragonPic{
+#tinyDragonPic {
   display: none;
 }
 
-#tinyUnicornPic{
+#tinyUnicornPic {
   display: none;
 }
 
-#tinySwim{
+#tinySwim {
   display: none;
 }
 
-#tinyDragonSwim{
+#tinyDragonSwim {
   display: none;
 }
 
-#tinyUnicornSwim{
+#tinyUnicornSwim {
   display: none;
 }
 
@@ -593,7 +592,7 @@ img {
   display: none;
 }
 
-#sunPoxyPicnic{
+#sunPoxyPicnic {
   display: none;
 }
 
@@ -601,15 +600,15 @@ img {
   display: none;
 }
 
-#sunUnicornPicnic{
+#sunUnicornPicnic {
   display: none;
 }
 
-#picnicFriends{
+#picnicFriends {
   display: none;
 }
 
-#swimFriends{
+#swimFriends {
   display: none;
 }
 
@@ -617,6 +616,6 @@ img {
   display: none;
 }
 
-.scrolling{
+.scrolling {
   position: relative;
 }
