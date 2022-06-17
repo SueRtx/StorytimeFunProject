@@ -79,6 +79,18 @@ label{
   color: rgb(211, 46, 175);
 }
 
+#beachOption {
+  margin-top: 3.5%;
+  margin-left: 42%;
+  color:rgb(99, 73, 20);
+}
+
+#hillOption {
+  margin-top: 4.5%;
+  margin-left: 45%;
+  color: rgb(99, 73, 20);
+}
+
 #helpRainbow {
   margin-top: -17%;
   margin-left: 6%;
@@ -100,7 +112,6 @@ label{
   margin-left: 59%; 
 }
 
-
 #dragonPicnic3 {
   margin-top: -6%;
   margin-left: 5%; 
@@ -115,8 +126,6 @@ label{
   margin-top: -4%;
   margin-left: 37%; 
 }
-
-
 
 #tinyDragon1, #poxyDragon, #poxyDragon1, #tinyUnicorn1, #poxyDragonPic1, #tinyDragon2, #dragon1, #end3, #dragon{
   color:rgb(115, 58, 195); 
@@ -324,9 +333,15 @@ img {
 }
 }
 
-.startOverSpike{
+.startOverSpike, #empty {
   margin-top: -8%;
   margin-left: 82%;
+  color: rgb(239, 52, 46);
+}
+
+#empty1 {
+  margin-top: -8%;
+  margin-left: 52%;
   color: rgb(239, 52, 46);
 }
 
@@ -495,19 +510,19 @@ img {
 
 @keyframes anim-popoutin {
   0% {
-    color: #DF8453;
+    color: red;
     transform: scale(0);
     opacity: 0;
     text-shadow: 0 0 0 rgba(0, 0, 0, 0);
   }
   25% {
-    color: #3D8DAE;
+    color: rgb(41, 154, 63);
     transform: scale(2);
     opacity: 1;
     text-shadow: 3px 10px 5px rgba(0, 0, 0, 0.5);
   }
   50% {
-    color: #17494D;
+    color:rgb(87, 27, 72);
     transform: scale(1);
     opacity: 1;
     text-shadow: 1px 0 0 rgba(0, 0, 0, 0);
