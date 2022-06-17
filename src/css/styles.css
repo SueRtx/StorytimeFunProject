@@ -39,20 +39,81 @@ label{
   font-size: 30px;
 }
 
+.pop-out:hover{
+  text-decoration: underline;
+}
+
 .pages, .picture{
   border: 5px solid #1292ab;
+  margin-top: 2%;
+}
+
+.title-word {
+  animation: color-animation 4s linear infinite;
+}
+
+.title-word-1 {
+  --color-1: rgb(34, 34, 240);
+  --color-2: yellow;
+  --color-3: rgb(244, 15, 15);
+}
+
+.title-word-2 {
+  --color-1: rgb(13, 183, 13);
+  --color-2: orange;
+  --color-3: rgb(205, 37, 205);
+}
+
+.title-word-3 {
+  --color-1: yellow;
+  --color-2: red;
+  --color-3: rgb(34, 34, 240);
+}
+
+@keyframes color-animation {
+  0%    {color: var(--color-1)}
+  32%   {color: var(--color-1)}
+  33%   {color: var(--color-2)}
+  65%   {color: var(--color-2)}
+  66%   {color: var(--color-3)}
+  99%   {color: var(--color-3)}
+  100%  {color: var(--color-1)}
+}
+
+.title {
+  text-shadow: 4px 4px black;
+  font-family: 'Lobster', cursive; 
+  font-size: 75px;
+  padding: 0 0 0 0;
+  margin-top: -55%;
+  margin-left: 2%;
+  text-align: center;
+  Position: absolute;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+
+.parent {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+
+#helpDragon {
+  margin-top: -34%;
+  margin-left: 50%;
+  color: rgb(47, 152, 94);
 }
 
 #helpSun {
   margin-top: -9%;
   margin-left: 78%;
-  color: rgb(238, 108, 56);
-}
-
-#helpDragon {
-  margin-top: -33.5%;
-  margin-left: 51%;
-  color: rgb(47, 152, 94);
+  color: rgb(218, 236, 82);
 }
 
 #helpPoxy {
@@ -62,40 +123,191 @@ label{
 }
 
 #helpTiny {
-  margin-top: -5%;
+  margin-top: -4%;
   margin-left: 71%;
   color: rgb(108, 21, 230);
 }
 
-#picnicOption {
-  margin-top: -18%;
-  margin-left: 88%;
-  color: rgb(199, 240, 95);
+#helpRainbow {
+  margin-top: -24%;
+  margin-left: 6%;
+  color: rgb(84, 42, 183);
 }
 
 #swimOption {
-  margin-top: 4%;
+  margin-top: 10%;
   margin-left: 2%;
   color: rgb(211, 46, 175);
 }
 
 #beachOption {
-  margin-top: 3.5%;
-  margin-left: 42%;
-  color:rgb(99, 73, 20);
+  margin-top:-11.5%;
+  margin-left: 40%;
+  font-size: 38px;
+  animation: opacity 2s ease-in-out infinite;
+  opacity: 1;
+  color: rgb(99, 73, 20);  
+}
+@keyframes opacity {
+0% {
+  opacity: 1;
+}
+50% {
+  opacity: 0
+}
+100% {
+  opacity: 1;
+}
 }
 
 #hillOption {
-  margin-top: 4.5%;
+  margin-top: 4%;
   margin-left: 45%;
-  color: rgb(99, 73, 20);
+  font-size: 38px;
+  animation: opacity 2s ease-in-out infinite;
+  opacity: 1;
+  color: rgb(99, 73, 20);  
+}
+@keyframes opacity {
+0% {
+  opacity: 1;
+}
+50% {
+  opacity: 0
+}
+100% {
+  opacity: 1;
+}
 }
 
-#helpRainbow {
-  margin-top: -17%;
-  margin-left: 6%;
-  color: rgb(84, 42, 183);
+#picnicOption {
+  margin-top: -4%;
+  margin-left: 90%;
+  color: rgb(155, 93, 137);
+} 
+
+.image1 {
+  position: relative;
+  top: 0;
+  left: 0;
+  border: 5px solid #1292ab;
 }
+
+.image2 {
+  width: 200px;
+  height: 350px;
+  size: relative;
+  position: absolute;
+  top: 43%;
+  left: 17%;
+  animation: shake 3s;
+  animation-iteration-count: infinite
+}
+
+.image3 {
+  width: 245px;
+  height: 350px;
+  size: relative;
+  position: absolute;
+  top: 43%;
+  left: 64%;
+  animation: shake 3s;
+  animation-iteration-count: infinite
+}
+
+.image4 {
+  width: 190px;
+  height: 210px;
+  size: relative;
+  position: absolute;
+  top: 15%;
+  left: 37%;
+  animation: shake 3s;
+  animation-iteration-count: infinite
+}
+
+.image5 {
+  width: 160px;
+  height: 200px;
+  size: relative;
+  position: absolute;
+  top: 22%;
+  left: 4%;
+  animation: shake 3s;
+  animation-iteration-count: infinite
+}
+
+.image6 {
+  width: 200px;
+  height: 200px;
+  size: relative;
+  position: absolute;
+  top: 3%;
+  left: 81%;
+  animation: shake 3s;
+  animation-iteration-count: infinite
+}
+
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+.scrolling h6 {
+  color: rgb(93, 93, 203);
+  position: absolute;
+  font-size: 25px;
+  border-right: .15em; 
+  overflow: hidden;
+  white-space: pre;
+  margin: 0 auto; 
+  animation: example 10s linear 0s;
+}
+
+@keyframes example {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes anim-popoutin {
+  0% {
+    color: red;
+    transform: scale(0);
+    opacity: 0;
+    text-shadow: 0 0 0 rgba(0, 0, 0, 0);
+  }
+  25% {
+    color: rgb(115, 239, 140);
+    transform: scale(2);
+    opacity: 1;
+    text-shadow: 3px 10px 5px rgba(0, 0, 0, 0.5);
+  }
+  50% {
+    color:rgb(105, 167, 170);
+    transform: scale(1);
+    opacity: 1;
+    text-shadow: 1px 0 0 rgba(0, 0, 0, 0);
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+    text-shadow: 1px 0 0 rgba(0, 0, 0, 0);
+  }
+}
+
 
 #tinyBall1 {
   margin-top: -8%;
@@ -127,23 +339,7 @@ label{
   margin-left: 37%; 
 }
 
-#tinyDragon1, #poxyDragon, #poxyDragon1, #tinyUnicorn1, #poxyDragonPic1, #tinyDragon2, #dragon1, #end3, #dragon{
-  color:rgb(115, 58, 195); 
-  font-size: 30px;
-} 
 
-#tinyUnicorn1, #poxyUnicorn, #tinyUnicorn2, #poxyUnicorn1,#poxyUnicornPic1, #unicorn, #unicorn1{
-color:rgb(235, 58, 179);
-  font-size: 30px;
-}
-
-#tiny:hover, #tinyPicnic1:hover, #tinySwim1:hover, #tinyDragon1:hover, #poxyPicnic1:hover, #poxyDragon:hover, #poxyDragon1:hover, #tinyUnicorn1:hover, #poxyDragonPic1:hover, #tinyDragon2:hover, #dragon1:hover, #dragon:hover {
-  text-decoration: underline;
-}
-
-#poxy:hover, #poxySwim1:hover, #tinySwim1:hover, #tinyUnicorn1:hover, #poxyUnicorn:hover, #tinyUnicorn2:hover, #poxyUnicorn1:hover,#poxyUnicornPic1:hover, #unicorn:hover, #unicorn1:hover, #end:hover, #end1:hover, #end2:hover, #end3:hover, #end4:hover, #end5:hover, #end6:hover, #end7:hover {
-  text-decoration: underline;
-  }
 
 #choosePoxyPicnic1 {
   margin-top: -28%;
@@ -357,182 +553,7 @@ img {
   color: rgb(239, 52, 46);
 }
 
-.title-word {
-  animation: color-animation 4s linear infinite;
-}
 
-.title-word-1 {
-  --color-1: rgb(34, 34, 240);
-  --color-2: yellow;
-  --color-3: rgb(244, 15, 15);
-}
-
-.title-word-2 {
-  --color-1: rgb(13, 183, 13);
-  --color-2: orange;
-  --color-3: rgb(205, 37, 205);
-}
-
-.title-word-3 {
-  --color-1: yellow;
-  --color-2: red;
-  --color-3: rgb(34, 34, 240);
-}
-
-@keyframes color-animation {
-  0%    {color: var(--color-1)}
-  32%   {color: var(--color-1)}
-  33%   {color: var(--color-2)}
-  65%   {color: var(--color-2)}
-  66%   {color: var(--color-3)}
-  99%   {color: var(--color-3)}
-  100%  {color: var(--color-1)}
-}
-
-.title {
-  text-shadow: 4px 4px black;
-  font-family: 'Lobster', cursive; 
-  font-size: 75px;
-  padding: 0 0 0 0;
-  margin-top: -55%;
-  margin-left: 2%;
-  text-align: center;
-  Position: absolute;
-}
-
-@keyframes textclip {
-  to {
-    background-position: 200% center;
-  }
-}
-
-.parent {
-  position: relative;
-  top: 0;
-  left: 0;
-}
-
-.image1 {
-  position: relative;
-  top: 0;
-  left: 0;
-  border: 5px solid #1292ab;
-}
-
-.image2 {
-  width: 200px;
-  height: 350px;
-  size: relative;
-  position: absolute;
-  top: 44%;
-  left: 17%;
-  animation: shake 3s;
-  animation-iteration-count: infinite
-}
-
-.image3 {
-  width: 245px;
-  height: 350px;
-  size: relative;
-  position: absolute;
-  top: 41%;
-  left: 64%;
-  animation: shake 3s;
-  animation-iteration-count: infinite
-}
-
-.image4 {
-  width: 190px;
-  height: 210px;
-  size: relative;
-  position: absolute;
-  top: 20%;
-  left: 37%;
-  animation: shake 3s;
-  animation-iteration-count: infinite
-}
-
-.image5 {
-  width: 160px;
-  height: 200px;
-  size: relative;
-  position: absolute;
-  top: 22%;
-  left: 4%;
-  animation: shake 3s;
-  animation-iteration-count: infinite
-}
-
-.image6 {
-  width: 200px;
-  height: 200px;
-  size: relative;
-  position: absolute;
-  top: 3%;
-  left: 81%;
-  animation: shake 3s;
-  animation-iteration-count: infinite
-}
-
-@keyframes shake {
-  0% { transform: translate(1px, 1px) rotate(0deg); }
-  10% { transform: translate(-1px, -2px) rotate(-1deg); }
-  20% { transform: translate(-3px, 0px) rotate(1deg); }
-  30% { transform: translate(3px, 2px) rotate(0deg); }
-  40% { transform: translate(1px, -1px) rotate(1deg); }
-  50% { transform: translate(-1px, 2px) rotate(-1deg); }
-  60% { transform: translate(-3px, 1px) rotate(0deg); }
-  70% { transform: translate(3px, 1px) rotate(-1deg); }
-  80% { transform: translate(-1px, -1px) rotate(1deg); }
-  90% { transform: translate(1px, 2px) rotate(0deg); }
-  100% { transform: translate(1px, -2px) rotate(-1deg); }
-}
-
-.scrolling h6 {
-  color: rgb(93, 93, 203);
-  position: absolute;
-  font-size: 25px;
-  border-right: .15em; 
-  overflow: hidden;
-  white-space: pre;
-  margin: 0 auto; 
-  animation: example 10s linear 0s;
-}
-
-@keyframes example {
-  from {
-    width: 0;
-  }
-  to {
-    width: 100%;
-  }
-}
-
-@keyframes anim-popoutin {
-  0% {
-    color: red;
-    transform: scale(0);
-    opacity: 0;
-    text-shadow: 0 0 0 rgba(0, 0, 0, 0);
-  }
-  25% {
-    color: rgb(41, 154, 63);
-    transform: scale(2);
-    opacity: 1;
-    text-shadow: 3px 10px 5px rgba(0, 0, 0, 0.5);
-  }
-  50% {
-    color:rgb(87, 27, 72);
-    transform: scale(1);
-    opacity: 1;
-    text-shadow: 1px 0 0 rgba(0, 0, 0, 0);
-  }
-  100% {
-    transform: scale(1);
-    opacity: 1;
-    text-shadow: 1px 0 0 rgba(0, 0, 0, 0);
-  }
-}
 
 #poxyPath1 {
   display: none;
