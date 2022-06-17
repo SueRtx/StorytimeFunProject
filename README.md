@@ -12,19 +12,20 @@ Users are prompted to choose their path with the different characters of the sto
 
 ## Setup/Installation Requirements  
   * Open your bash terminal
-  * Clone this repository using: 'git clone https://github.com/ampando/StorytimeFun.git'
+  * Clone this repository using: 'git clone https://github.com/SueRtx/StorytimeFunProject.git
   * Navigate to the "StorytimeFun" folder using 'cd StorytimeFun'
   * Open with VS Code using 'code .' command or another text editor of your choosing
   * Run $npm install to install dependencies
   * Run $npm run build to build environment
   * Run $npm run start to open a web server to view the site
-  * Also viewable on GitHub pages here: https://ampando.github.io/StorytimeFun/
-
+  
 ## Known Bugs
+  * Only work with screen size 90% or less.
   * If using a windows computer open package.json and confirm that the scripts:start line looks like this:
-  *"start": "npm run build & webpack-dev-server --open --mode development"*
+  * "start": "npm run build & webpack-dev-server --open --mode development"*
   * If using a Mac computer open package.json and confirm that the scripts:start line looks like this:
-  *"start": "npm run build; webpack-dev-server --open --mode development"*
+  * "start": "npm run build; webpack-dev-server --open --mode development"*
+
 
 ## Technologies Used
 
