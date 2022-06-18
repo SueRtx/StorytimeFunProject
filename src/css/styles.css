@@ -445,21 +445,7 @@ img {
 .chooseEnd {
   margin-top: -50%;
   margin-left: 50%;
-  font-size: 50px;
-  animation: opacity 2s ease-in-out infinite;
-  opacity: 1;
   color: rgb(239, 52, 46);  
-}
-@keyframes opacity {
-0% {
-  opacity: 1;
-}
-50% {
-  opacity: 0
-}
-100% {
-  opacity: 1;
-}
 }
 
 .startOverSunPicnic {
@@ -485,7 +471,7 @@ img {
 }
 
 #startOverPicnic{
-  margin-top: -60%;
+  margin-top: -55%;
   margin-left: 3%;
   color: rgb(239, 52, 46);
 }
@@ -495,8 +481,6 @@ img {
   margin-left: 30%;
   color: rgb(239, 52, 46);
 }
-
-
 
 #poxyPath1 {
   display: none;
