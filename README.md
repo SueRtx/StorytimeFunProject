@@ -16,7 +16,7 @@ Users are prompted to choose their path with the different characters of the sto
 * Navigate to the "StorytimeFunProject": $ cd StorytimeFunProject
 * Open VsCode: $ code .
 * Mac computer: Open package.json and confirm that the scripts:start line looks like this:
-    "start": "npm run build;  webpack-dev-server --open --mode development",
+*   "start": "npm run build;  webpack-dev-server --open --mode development",
 * Run $npm install 
 * Run $npm run build 
 * Run $npm run start
