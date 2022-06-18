@@ -4,8 +4,6 @@ body {
   background-color: rgb(210, 223, 247);
 }
 
-  
-
 .container1{
   text-align: center;
   color: rgb(93, 93, 203);
@@ -208,19 +206,19 @@ img {
 
 @keyframes anim-popoutin {
   0% {
-    color: red;
+    color: green;
     transform: scale(0);
     opacity: 0;
     text-shadow: 0 0 0 rgba(0, 0, 0, 0);
   }
   25% {
-    color: rgb(115, 239, 140);
+    color: rgb(245, 62, 30);
     transform: scale(2);
     opacity: 1;
     text-shadow: 3px 10px 5px rgba(0, 0, 0, 0.5);
   }
   50% {
-    color:rgb(105, 167, 170);
+    color:rgb(26, 53, 114);
     transform: scale(1);
     opacity: 1;
     text-shadow: 1px 0 0 rgba(0, 0, 0, 0);
@@ -260,7 +258,7 @@ img {
 #helpRainbow {
   margin-top: -24%;
   margin-left: 6%;
-  color: rgb(84, 42, 183);
+  color: rgb(51, 64, 159);
 }
 
 #swimOption {
@@ -347,7 +345,7 @@ img {
   margin-left: 37%; 
 }
 
-/* Poxy P2 */
+/* Poxy Picnic Path P2 */
 #choosePoxyPicnic1 {
   margin-top: -28%;
   margin-left: 19%; 
@@ -368,7 +366,7 @@ img {
 }
 }
 
-/* Tiny P2 */
+/* Tiny Picnic Path P2 */
 #chooseTinyPicnic1 {
   margin-top: -27%;
   margin-left: 19%; 
@@ -389,6 +387,7 @@ img {
 }
 }
 
+/* Poxy & Tiny Swim Path p2 */
 #choosePoxySwim1, #chooseTinySwim1{
   margin-top: -18%;
   margin-left: 50.5%;
@@ -409,7 +408,7 @@ img {
 }
 }
 
-/* Poxy & Tiny Picnic Spike P3*/
+/* Poxy & Tiny Picnic w/ Spike P3*/
 #choosepoxyDragon1, #chooseTinyDragon1 {
   margin-top: -31%;
   margin-left: 36%; 
@@ -417,7 +416,7 @@ img {
   color:red;
 }
 
-/* Poxy & Tiny Picnic Rainbow P3*/
+/* Poxy & Tiny Picnic w/ Rainbow P3*/
 #choosepoxyUnicorn1, #chooseTinyyUnicorn1{
   margin-top: -5%;
   margin-left: 65%;
@@ -425,7 +424,7 @@ img {
   color: #230ec7;
 }
 
-/* Poxy & Tiny Swim Rainbow P3*/
+/* Poxy & Tiny Swim w/ Rainbow P3*/
 #choosePoxyyUnicorn, #chooseTinyUnicorn{  
   margin-top: 6%;
   margin-left: 38%; 
@@ -433,7 +432,7 @@ img {
   color: rgb(241, 46, 11);
 }
 
-/* Poxy & Tiny Swim Spike P3*/
+/* Poxy & Tiny Swim w/Spike P3*/
 #choosePoxyDragon, #chooseTinyDragon {
   margin-top: -38%;
   margin-left: 79%;
