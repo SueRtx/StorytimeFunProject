@@ -9,8 +9,8 @@
 This application will allow the user to create their very own storybook adventure. 
 Users are prompted to choose their path with the different characters of the story. 
 
+## Setup/Installation Requirements 
 
-## Setup/Installation Requirements  
   * Open your bash terminal
   * Clone this repository using: 'git clone https://github.com/SueRtx/StorytimeFunProject.git
   * Navigate to the "StorytimeFun" folder using 'cd StorytimeFun'
@@ -20,12 +20,12 @@ Users are prompted to choose their path with the different characters of the sto
   * Run $npm run start to open a web server to view the site
   
 ## Known Bugs
-  * Only work with screen size 90% or less.
+
+  * Work best with screen size 90% or less.
   * If using a windows computer open package.json and confirm that the scripts:start line looks like this:
   * "start": "npm run build & webpack-dev-server --open --mode development"*
   * If using a Mac computer open package.json and confirm that the scripts:start line looks like this:
   * "start": "npm run build; webpack-dev-server --open --mode development"*
-
 
 ## Technologies Used
 
