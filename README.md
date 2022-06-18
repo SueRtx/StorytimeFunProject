@@ -11,22 +11,21 @@ Users are prompted to choose their path with the different characters of the sto
 
 ## Setup/Installation Requirements 
 
-  * Open your bash terminal
-  * Clone this repository using: 'git clone https://github.com/SueRtx/StorytimeFunProject.git
-  * Navigate to the "StorytimeFun" folder using 'cd StorytimeFun'
-  * Open with VS Code using 'code .' command or another text editor of your choosing
-  * Run $npm install to install dependencies
-  * Run $npm run build to build environment
-  * Run $npm run start to open a web server to view the site
+* Open terminal.
+* Clone this repository: $ git clone https://github.com/SueRtx/StorytimeFunProject.git
+* Navigate to the "StorytimeFunProject": $ cd StorytimeFunProject
+* Open VsCode: $ code .
+* Mac computer: Open package.json and confirm that the scripts:start line looks like this:
+    "start": "npm run build;  webpack-dev-server --open --mode development",
+* Run $npm install 
+* Run $npm run build 
+* Run $npm run start
+* Enjoy!!!
   
 ## Known Bugs
 
-  * Work best with screen size 90% or less.
-  * If using a windows computer open package.json and confirm that the scripts:start line looks like this:
-  * "start": "npm run build & webpack-dev-server --open --mode development"*
-  * If using a Mac computer open package.json and confirm that the scripts:start line looks like this:
-  * "start": "npm run build; webpack-dev-server --open --mode development"*
-
+* Work best with screen size 90% or less.
+  
 ## Technologies Used
 
 * HTML
