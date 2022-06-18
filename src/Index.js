@@ -50,7 +50,6 @@ $(document).ready(function() {
     $('#page1').hide();
     $('.container1').hide();
     $('#hillEmpty').show();
-
   });
 
   $('#goBack1').click(function(){
@@ -59,13 +58,11 @@ $(document).ready(function() {
     $('#page1').show();
   });
 
-
   /*Unicorn Party Starts*/
   $('#party').click(function(){
     $('#page1').hide();
     $('.container1').hide();
-    $('#unicornParty').show();
-
+    $('#unicornParty').show();0
   });
 
   $('#overParty').click(function(){
